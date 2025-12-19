@@ -20,6 +20,8 @@
         <activity android:name=".api.activity.ActivityApps"/>
         <activity android:name=".api.activity.ActivitySignUp"/>
         <activity android:name=".settings.activity.ActivitySetting"/>
+        <activity android:name=".gallery.activity.GalleryImagesActivity" android:theme="@android:style/Theme.Holo.NoActionBar" />
+        <activity android:name=".gallery.activity.FullScreenGalleryActivity" android:theme="@android:style/Theme.Holo.NoActionBar" />
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>

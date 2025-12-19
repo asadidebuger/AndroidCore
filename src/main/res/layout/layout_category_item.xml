@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="200dp"
+              android:layout_height="200dp" android:id="@+id/ll_root">
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_weight="1" android:background="@drawable/categoryborder"
+            android:padding="2dp">
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/img_image" android:minHeight="35dp" android:minWidth="35dp"
+                android:scaleType="centerCrop"/>
+        <ImageView android:layout_width="30dp" android:layout_height="wrap_content" android:id="@+id/imageView"
+                   android:scaleType="centerInside" android:src="@drawable/folder" android:adjustViewBounds="true"
+                   android:layout_alignParentBottom="true"/>
+        <ProgressBar
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/prg_wait" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_image_title" android:layout_gravity="center_horizontal"
+            android:textColor="@color/color_gray0" android:visibility="visible"/>
+</LinearLayout>

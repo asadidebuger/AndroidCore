@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="fill_parent"
+              android:layout_width="fill_parent"
+              android:id="@+id/ll_root" android:orientation="vertical" android:background="@color/white">
+
+    <include android:layout_width="fill_parent"
+             android:layout_height="@dimen/header_height"
+             layout="@layout/inline_header_simple"/>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+                    android:background="@color/white" android:id="@+id/relativeLayout">
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/imageView"
+                   android:src="@drawable/metro_white" android:scaleType="centerCrop" android:adjustViewBounds="true"
+                   android:layout_alignParentBottom="true"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" android:id="@+id/ll_fragments">
+            <GridView
+                    android:id="@+id/grid_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:numColumns="auto_fit"
+                    android:gravity="center"
+                    android:stretchMode="columnWidth"
+                    style="@style/scrollbar_style">
+            </GridView>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

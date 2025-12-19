@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="gallery_show_title_image_thumbs">false</bool>
+    <bool name="gallery_show_title_image_large">false</bool>
+    <!--<bool name="gallery_show_title_image_thumbs">false</bool>-->
+    <bool name="gallery_show_desc_image_large">false</bool>
+    <bool name="gallery_show_download_original">true</bool>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="send_photo_description_title">توضیحات</string>
+    <string name="send_photo_description_desc">توضیحی در مورد تصویر ارسالی</string>
+    <string name="send_photo_from_gallery">انتخاب از گالری</string>
+    <string name="send_photo_from_cam">عکس جدید با دوربین</string>
+    <string name="send_photo_send">ارسال تصویر</string>
+    <string name="message_title_pic_send_succeed">ارسال موفقیت آمیز</string>
+    <string name="message_title_pic_send_failed">ارسال ناموفق</string>
+    <string name="message_desc_pic_send_succeed">تصویر با موفقیت ارسال شد و در صورت تایید در صفحات رسمی نرم افزار در
+        اینساتگرام و لنزور منتشر خواهد شد.
+    </string>
+    <string name="message_desc_pic_send_failed">متاسفانه تصویر ارسال نشد.از دسترسی به اینترنت با سرعت مناسب اطمینان حاصل
+        فرمایید و مجددا تلاش کنید. همچنین ممکن است ارتباط با سرور مقدور نباشد و یا سرور دچار اختلال باشد. در این صورت می
+        توانید در ساعات آینده مجددا برای ارسال تصویر تلاش نمایید.
+    </string>
+
+
+</resources>
