@@ -91,7 +91,7 @@ public static int getTimeout(){
         requestHeader =new HashMap<>();
         requestHeader.put("user-agent",getAgent());
         requestHeader.put("model", System.getPhoneModel());
-        requestHeader.put("imei", System.getUniqueId(Application.getContext()));
+//        requestHeader.put("imei", System.getUniqueId(Application.getContext()));
         requestHeader.put("agent-version",getAgentVersion());
         requestHeader.put("pkg",Application.getContext().getPackageName());
         requestHeader.put("pkg-version",Application.getVersionCode()+"");

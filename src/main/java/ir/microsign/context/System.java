@@ -27,14 +27,14 @@ public class System {
 
     static String mAndroidId = null;
 
-    public static String getAndroidId(Context context) {
-        if (mAndroidId != null) return mAndroidId;
-        mAndroidId = Settings.Secure.getString(context.getContentResolver(), Settings.Secure.ANDROID_ID);
-        if (mAndroidId==null||mAndroidId.trim().isEmpty()||"9774d56d682e549c".equals(mAndroidId))
-            mAndroidId = getUniqueId(context);
-
-        return mAndroidId;
-    }
+//    public static String getAndroidId(Context context) {
+//        if (mAndroidId != null) return mAndroidId;
+//        mAndroidId = Settings.Secure.getString(context.getContentResolver(), Settings.Secure.ANDROID_ID);
+//        if (mAndroidId==null||mAndroidId.trim().isEmpty()||"9774d56d682e549c".equals(mAndroidId))
+//            mAndroidId = getUniqueId(context);
+//
+//        return mAndroidId;
+//    }
 //    public static List<String>  getIMEI(Context context){
 //        TelephonyManager TelephonyMgr = (TelephonyManager) context.getApplicationContext().getSystemService(Context.TELEPHONY_SERVICE);
 //        List<String> imeiList=new ArrayList<>();
@@ -51,20 +51,20 @@ public class System {
 //        return m_szImei;
 //    }
 
-    public static String getUniqueId(Context context){
-        if (!Application.checkPermission(Manifest.permission.READ_PHONE_STATE))return null;
-        try{
-            TelephonyManager TelephonyMgr = (TelephonyManager) context.getApplicationContext().getSystemService(Context.TELEPHONY_SERVICE);
-            return TelephonyMgr.getDeviceId();
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-        if (!Application.checkPermission(Manifest.permission.ACCESS_WIFI_STATE))return null;
-        WifiManager wifiManager = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
-
-        WifiInfo wInfo = wifiManager.getConnectionInfo();
-       return wInfo.getMacAddress();
-    }
+//    public static String getUniqueId(Context context){
+//        if (!Application.checkPermission(Manifest.permission.READ_PHONE_STATE))return null;
+//        try{
+//            TelephonyManager TelephonyMgr = (TelephonyManager) context.getApplicationContext().getSystemService(Context.TELEPHONY_SERVICE);
+//            return TelephonyMgr.getDeviceId();
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }
+//        if (!Application.checkPermission(Manifest.permission.ACCESS_WIFI_STATE))return null;
+//        WifiManager wifiManager = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
+//
+//        WifiInfo wInfo = wifiManager.getConnectionInfo();
+//       return wInfo.getMacAddress();
+//    }
     public static String getPhoneModel() {
         return Build.MODEL;
     }

@@ -326,11 +326,11 @@ sendRequest( url,  method,  resource,  function,  object, null,  l, params);
 
             return;
         }
-        if (System.getUniqueId(Application.getContext()) == null) {
-			fireException(exceptions.nullDeviceId);
-            l.onResponse(new Response(null));
-            return;
-        }
+//        if (System.getUniqueId(Application.getContext()) == null) {
+//			fireException(exceptions.nullDeviceId);
+//            l.onResponse(new Response(null));
+//            return;
+//        }
         HashMap hashMap = Utils.arrayToParams(params);
        if (Text.notEmpty(resource)) hashMap.put("res", resource);
         if (Text.notEmpty(function)) hashMap.put("func", function);
