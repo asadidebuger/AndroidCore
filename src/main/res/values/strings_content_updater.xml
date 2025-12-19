@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_update_main_title">به روز رسانی</string>
+    <string name="btn_update_main_update">دریافت و به روز رسانی</string>
+    <string name="btn_update_main_check_update">بررسی به روز رسانی</string>
+    <string name="update_main_progress_prepare">آماده سازی</string>
+    <string name="update_main_progress_get_last">دریافت اطلاعات آخرین نسخه</string>
+    <string name="update_main_progress_download_prepare">آماده سازی برای دریافت</string>
+    <string name="update_main_progress_download">دریافت</string>
+    <string name="update_main_progress_unzip">رمزگشایی</string>
+    <string name="update_main_progress_restore">آماده سازی</string>
+    <string name="update_ctrl_update_key">sarmayeh</string>
+    <string name="update_main_desc">جهت اطلاع از آخرین به روز رسانی دکمه بررسی به روز رسانی که در زیر نمایش داده شده است را لمس کنید.</string>
+
+</resources>

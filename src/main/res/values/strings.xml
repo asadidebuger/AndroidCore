@@ -1,0 +1,122 @@
+<resources>
+	<string name="app_name">ServerApi</string>
+	<string name="txt_email">پست الکترونیکی<b>*</b></string>
+	<string name="caption_email">email@domain.com</string>
+	<string name="txt_password">رمز عبور<b>*</b></string>
+	<string name="txt_password_new">رمز عبور جدید<b>*</b></string>
+	<string name="caption_password">رمز عبور</string>
+	<string name="caption_password_new">رمز عبور جدید</string>
+	<string name="txt_password_repeat">تکرار رمز عبور<b>*</b></string>
+	<string name="caption_password_repeat">تکرار رمز عبور</string>
+	<string name="txt_code">کد کاربری<b>*</b></string>
+	<string name="caption_code">کد کاربری</string>
+	<string name="btn_login">ورود</string>
+	<string name="btn_reg_data">ثبت اطلاعات</string>
+	<string name="txt_mobile_num">شماره تلفن همراه<b>*</b></string>
+	<string name="txt_agree">با قوانین و مقررات استفاده از این نرم افزار موافقم</string>
+	<string name="txt_use_phone">استفاده از شماره تلفن همراه</string>
+	<string name="txt_name">نام و نام خانوادگی</string>
+	<string name="caption_name">نام</string>
+	<string name="txt_license_title">قوانین و شرایط استفاده از این نرم افزار</string>
+
+	<string name="caption_phone">9120000000</string>
+	<string name="txt_show_password">نمایش رمز عبور</string>
+	<string name="msg_login_error">خطایی در سرور به وجود آمده است لطفاً بعداً مجدداً تلاش کنید…</string>
+	<string name="msg_login_phone_already_exist">این شماره تلفن قبلاً ثبت شده است. اگر رمز عبور خود را فراموش کرده اید به قسمت یادآوری رمز عبور مراجعه کنید.</string>
+	<string name="msg_login_email_already_exist">ایمیل قبلاً ثبت شده است. اگر رمز عبور خود را فراموش کرده اید به قسمت یادآوری رمز عبور مراجعه کنید.</string>
+	<string name="msg_login_code_already_exist">این کد قبلاً ثبت شده است. اگر رمز عبور خود را فراموش کرده اید به قسمت یادآوری رمز عبور مراجعه کنید.</string>
+	<string name="msg_login_pass_not_same">رمزهای عبور با هم مطابقت ندارد</string>
+	<string name="msg_login_pass_low" formatted="false">رمز عبور حد اقل باید %d حرف باشد</string>
+	<string name="msg_login_pass_wrong">رمز عبور اشتباه است</string>
+	<string name="msg_login_user_not_exist_email">این ایمیل تابحال ثبت نشده است</string>
+	<string name="msg_login_user_not_exist_phone">این شماره تابحال ثبت نشده است</string>
+	<string name="msg_login_user_not_exist_code">این کد تابحال ثبت نشده است</string>
+	<string name="msg_login_pass_empty">رمز عبور را وارد کنید</string>
+	<string name="msg_login_recover_code_not_valid" formatted="false">کد بازیابی شامل %d کاراکتر است. لطفا کد بازیابی را با دقت وارد کنید</string>
+	<string name="msg_login_must_login">لطفا با نام کاربری و رمز عبور خود وارد شوید</string>
+	<string name="msg_login_no_network">لطفا ارتباط دستگاه خود را با اینترنت بررسی کنید</string>
+	<string name="msg_login_invalid_email">ایمیل وارد شده معتبر نیست</string>
+	<string name="msg_login_invalid_phone">شماره وارد شده معتبر نیست</string>
+	<string name="msg_login_invalid_code">کد وارد شده معتبر نیست</string>
+	<string name="msg_login_email_or_tel_not_entered">وارد کردن ایمیل یا تفن همراه ضروری است!</string>
+	<string name="msg_login_verification_limited">دفعات اصلاح اطلاعات بیش از حد مجاز است. لطفا با ما تماس بگیرید!</string>
+	<string name="msg_login_verification_invalid">کد وارد شده معتبر نیست!</string>
+	<string name="msg_login_not_agree">لطفاً با شرایط استفاده از نرم افزار موافقت کنید</string>
+	<string name="msg_need_login">لازم است ابتدا وارد پروفایل خود شوید!</string>
+	<string name="msg_login_recovery_limited">شما بیش از اندازه اقدام به دریافت کد فعال سازی کرده اید، به دلایل امنیتی بیش از این اجازه تلاش برای بازیابی رمز عبور ندارید</string>
+	<string name="msg_login_recovery_timeout">زمان ورود این کد بازیابی به پایان رسیده است. لطفاً مجددا تلاش کنید</string>
+	<string name="msg_login_recovery_invalid">این کد بازیابی معتبر نیست. لطفا جهت دریافت کد بازیابی مجدداً تلاش کنید</string>
+	<string name="msg_api_no_unique_address">ما به آدرس سخت افزاری دستگاه شما نیاز داریم. اگر دستگاه شما مجوزها را کنترل میکند لطفاً به این برنامه اجازه دهید تا به شناسه ی دستگاه شما دسترسی داشته باشد.</string>
+	<string name="msg_api_missing_args">اطلاعات مورد نیاز به سرور ارسال نشده است. لطفاً اطلاعات درخواستی را وارد کنید</string>
+	<string name="msg_api_timeout">پاسخی از سرور دریافت نشد</string>
+	<string name="msg_error_occurred">در حین عملیات خطایی رخ داد. عملیات قابل انجام نیست!</string>
+	<string name="txt_already_sign_up">قبلاً ثبت نام کرده اید؟</string>
+	<string name="txt_forgot_pass">رمز عبور را فراموش کرده اید؟</string>
+	<string name="txt_complete_profile">تکمیل اطلاعات پروفایل</string>
+	<string name="txt_hello" formatted="false">سلام %s</string>
+	<string name="txt_sign_out">خروج از حساب کاربری!</string>
+	<string name="txt_sign_in">ورود به حساب کاربری</string>
+	<string name="txt_sign_up"> ثبت نام و ایجاد پروفایل جدید!</string>
+	<string name="btn_sign_up">ثبت اطلاعات</string>
+	<string name="txt_sign_update">تغییر نام و رمز عبور</string>
+	<string name="txt_sign_recover">تنظیم مجدد رمز عبور</string>
+	<string name="txt_sign_recover_receive_code">دریافت کد بازیابی</string>
+	<string name="txt_login_title_sign_in">وارد شوید!</string>
+	<string name="txt_login_title_sign_out">شما وارد سیستم شده اید!</string>
+	<string name="txt_login_title_sign_up">ثبت نام کنید!</string>
+	<string name="txt_login_title_recover">بازیابی رمز عبور!</string>
+	<string name="txt_login_title_update">تغییر نام یا رمز عبور!</string>
+	<string name="txt_title_profile_data">تکمیل اطلاعات پروفایل</string>
+	<string name="txt_title_profile_data_verify">کد تایید را وارد کنید!</string>
+
+	<string name="txt_recover_code">کد بازیابی<b>*</b></string>
+	<string name="caption_recover_code">00000</string>
+	<string name="txt_recover_enter_code">وارد کردن کد بازیابی</string>
+
+	<string name="txt_verify_code">کد تایید*</string>
+	<string name="caption_verify_code">00000</string>
+	<string name="txt_verify_enter_code">کد تایید را اینجا درج کنید</string>
+
+
+	<string name="txt_send">ارسال</string>
+	<string name="txt_new_ticket">ایجاد تیکت جدید</string>
+	<string name="txt_tickets_title">تیکت ها</string>
+
+	<string name="txt_title">عنوان</string>
+	<string name="txt_subject">موضوع</string>
+	<string name="txt_ticket_type">طبقه بندی</string>
+	<string name="txt_create">ایجاد</string>
+	<string name="txt_cancel">انصراف</string>
+	<string name="txt_edit_ticket_title">ایجاد کردن تیکت جدید</string>
+	<string name="txt_exit">خروج</string>
+	<string name="caption_message">پیام خود را بنویسید و ارسال کنید</string>
+
+	<string name="txt_intro_about_company">درباره ما</string>
+	<string name="txt_intro_about_app">در مورد برنامه</string>
+	<string name="txt_intro_other_apps">سایر برنامه ها</string>
+	<string name="txt_intro_other_send_report">ارسال درخواست</string>
+
+	<string name="txt_intro_download_from_markets">دریافت نرم افزار</string>
+	<string name="txt_intro_change_history_title">تاریخچه تغییرات</string>
+	<string name="txt_intro_version_title" formatted="false">ویرایش %s</string>
+	<string name="caption_ticket_title">عنوان درخواست</string>
+	<string name="txt_app_url_title">مشاهده در وب سایت</string>
+	<string name="txt_last_update">آخرین به روز رسانی</string>
+	<string name="txt_last_version">آخرین ویرایش</string>
+	<string name="caption_lastname">نام خانوادگی</string>
+	<string name="rdb_use_tel">شماره همراه</string>
+	<string name="rdb_use_email">ایمیل</string>
+	<string name="rdb_use_code">کد کاربر</string>
+
+
+	<string name="txt_settings">تنظیمات</string>
+	<string name="txt_change_name">تغییر نام</string>
+	<string name="txt_change_pass">تغییر رمز عبور</string>
+	<string name="txt_change_picture">تغییر تصویر پروفایل</string>
+	<string name="btn_from_cam">دوربین</string>
+	<string name="btn_from_gallery">انتخاب فایل</string>
+	<string name="btn_set_profile_image">تایید</string>
+	<string name="txt_timer_title">فرصت باقیمانده</string>
+	<string name="btn_rotate">چرخش</string>
+
+</resources>

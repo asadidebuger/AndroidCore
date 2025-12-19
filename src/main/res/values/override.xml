@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="content_helper_path">ir.microsign.content.object.Helper</string>
+    <bool name="content_updater_step_updating">false</bool>
+</resources>

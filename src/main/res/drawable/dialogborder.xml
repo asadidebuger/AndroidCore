@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+
+        <shape>
+
+            <corners android:radius="4dip"/>
+            <stroke android:color="#1f1f1f"
+                    android:width="1dip"/>
+            <!--<padding android:left="5dip" android:bottom="5dip" android:right="5dip" android:top="5dip"/>-->
+            <solid android:color="@color/color_message_box_background"/>
+
+        </shape>
+    </item>
+
+
+</layer-list>

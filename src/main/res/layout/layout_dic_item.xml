@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" android:orientation="horizontal"
+              android:id="@+id/ll_root" android:descendantFocusability="blocksDescendants">
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:background="@drawable/back_selectable_content_even"
+            android:id="@+id/ll_root2" android:descendantFocusability="blocksDescendants">
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:background="@drawable/dic_item_border_bottom_right"
+                android:layout_weight="1"
+                android:gravity="center_vertical" android:descendantFocusability="blocksDescendants">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="titr"
+                      android:id="@+id/txt_title"
+
+                      android:textSize="15sp" android:textColor="@color/color_tabs_text"
+                      android:paddingLeft="3dp" android:paddingRight="4dp"
+                      android:paddingTop="5dp"
+                      android:paddingBottom="5dp" android:layout_weight="1"
+                      android:textStyle="bold"/>
+            <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/img_indent" android:src="@drawable/triangle" android:adjustViewBounds="true"
+                    android:scaleType="centerInside" android:visibility="visible" android:layout_marginRight="-17dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

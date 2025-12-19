@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setting_connection_title_parallel_receive">تعداد دریافت همزمان</string>
+    <string name="setting_connection_desc_parallel_receive">تعداد مطالبی که در یک اتصال باید دریافت شود</string>
+    <string name="setting_connection_title_archive_time_length">مدت زمان بایگانی</string>
+    <string name="setting_connection_desc_archive_time_length">تعداد روزی که مطالب دریافت شده باید در حافظه نگهداری
+        شود
+    </string>
+    <string name="setting_connection_title_archive_time_receive">مدت زمان اعتبار</string>
+    <string name="setting_connection_desc_archive_time_receive">مطالب دریافت شده حد اکثر مربوط به چند روز پیش باشد؟
+    </string>
+    <string name="setting_connection_title_receive_broadcast_this">دریافت اطلاعیه های برنامه</string>
+    <string name="setting_connection_desc_receive_broadcast_this">اطلاعیه های مربوط به این برنامه دریافت شود؟</string>
+    <string name="setting_connection_title_receive_broadcast_all">دریافت سایر اطلاعیه ها</string>
+    <string name="setting_connection_desc_receive_broadcast_all">اطلاعیه های مربوط به سایر برنامه ها و اطلاعیه های توسعه
+        دهنده دریافت شود؟
+    </string>
+    <string name="setting_connection_title_receive_update">دریافت مطالب به روز شده</string>
+    <string name="setting_connection_desc_receive_update">به روز شدن مطالب به صورت اتوماتیک بررسی شود؟</string>
+    <string name="setting_connection_title_receive_images">دریافت تصاویر</string>
+    <string name="setting_connection_desc_receive_images">موجود بودن تصاویر به صورت اتوماتیک بررسی شود؟</string>
+    <string name="setting_connection_title_images_size">اندازه تصاویر دریافتی</string>
+    <string name="setting_connection_desc_images_size">عرض تصاویر دریافتی چند پیکسل باشد؟ این مقدار را با توجه به تراکم
+        پیکسلی صفحه نمایش و ظرفیت سخت افزاری دستگاه خود انتخاب نمایید.
+    </string>
+</resources>

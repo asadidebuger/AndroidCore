@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" android:orientation="vertical"
+
+              android:id="@+id/ll_root">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+                  android:layout_height="wrap_content" android:background="@drawable/back_tabs_simple1"
+                  android:id="@+id/linearLayout10">
+        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent"
+                   android:id="@+id/img_close" android:src="@drawable/icon_back_white"
+                   android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_marginLeft="5dp"
+                   android:layout_marginRight="10dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" android:layout_gravity="center_vertical|right"
+                      android:id="@+id/linearLayout9" android:gravity="bottom|right" android:layout_weight="1"
+                      android:layout_marginRight="5dp">
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:layout_width="wrap_content"
+                      android:layout_height="fill_parent" android:id="@+id/txt_title" android:text="title"
+                      android:background="@drawable/selectable_tabs1" android:textColor="@color/color_main_header_txt"
+                      android:layout_gravity="right" android:layout_marginRight="1px" android:paddingRight="5dp"
+                      android:paddingLeft="5dp" android:gravity="center" android:visibility="visible"/>
+        </LinearLayout>
+    </LinearLayout>
+    <include android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             layout="@layout/layout_content_web"
+             android:layout_weight="1"/>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="@dimen/category_item_height"
+                  android:orientation="horizontal" android:background="@color/color_tabs_bar_simple0"
+                  android:gravity="right" android:id="@+id/ll_cats">
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ActivityDialog" parent="Theme.AppCompat.Light.Dialog">
+        <!--<item name="colorPrimary">#000</item>-->
+        <!--<item name="android:textColorPrimary">#000</item>-->
+        <!--<item name="android:textColorPrimaryInverse">#000</item>-->
+        <!--<item name="android:colorSecondary">#000</item>-->
+        <!--<item name="android:color">#005</item>-->
+    </style>
+<!--<style name="ActivityDialog.textViewStyle">-->
+    <!--<item name="colorPrimary">#000</item>-->
+    <!--<item name="android:textColorPrimary">#000</item>-->
+    <!--<item name="android:textColorPrimaryInverse">#000</item>-->
+    <!--<item name="android:colorSecondary">#000</item>-->
+    <!--<item name="android:color">#005</item>-->
+<!--</style>-->
+</resources>

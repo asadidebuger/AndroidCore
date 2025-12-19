@@ -1,0 +1,14 @@
+<resources>
+
+    <!--<string name="api_server_address">192.168.137.1</string>-->
+    <string name="api_server_address">192.168.137.1</string>
+    <!--<string name="api_server_address">microsign.ir</string>-->
+    <string name="api_server_protocol">https</string>
+    <string name="api_server_port">443</string>
+    <string name="api_server_path">api/app</string>
+
+    <bool name="login_allow_code">false</bool>
+    <bool name="login_allow_email">true</bool>
+    <bool name="login_allow_mobile">false</bool>
+</resources>
+

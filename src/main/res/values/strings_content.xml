@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="content_alert_buy_title">دسترسی محدود</string>
+    <string name="content_alert_down_title">در حال حاضر محتوایی در این بخش وجود ندارد</string>
+    <string name="content_alert_buy_desc1">برای دسترسی به همه ی مطالب این مجموعه باید مجوز دسترسی و دریافت مطالب این
+        مجموعه را خریداری نمایید
+    </string>
+    <string name="content_alert_down_desc1">این مجموعه فعلاً محتوایی ندارد.در صورت تمایل می توانید وجود محتوا را از طریق
+        اینترنت بررسی و دریافت نمایید.
+    </string>
+    <string name="content_alert_buy_desc2" formatted="false">قیمت:%s تومان</string>
+    <string name="content_alert_back">بازگشت</string>
+    <string name="content_alert_buy">ادامه و خرید</string>
+    <string name="content_alert_download">بررسی و دریافت مطالب</string>
+    <string name="content_logo_title">محتوا</string>
+    <string name="content_logo_desc">توضیحات محتوا</string>
+    <string name="content_search_hint">عبارت مورد جستجو را وارد کنید</string>
+    <string name="hint_search">جستجو …</string>
+    <string name="content_markup_title">فهرست علاقه مندی ها</string>
+    <string name="hint_filter_text">پالایش</string>
+
+
+</resources>

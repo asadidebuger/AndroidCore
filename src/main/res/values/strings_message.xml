@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_dowanload_all_images_title">دریافت همه ی تصاویر</string>
+    <string name="message_dowanload_all_images_desc" formatted="false">تعداد %s تصویر در محتوا وجود دارد که شما آنها را دریافت نکرده اید. آیا مایل هستید همه ی آنها از اینترنت دریافت شود؟</string>
+    <string name="message_dowanload_all_images_nothing_title">موردی یافت نشد</string>
+    <string name="message_dowanload_all_images_nothing_desc">به نظر میرسد تمام تصاویر بکار رفته در محتوا دریافت شده است و موردی برای دریافت وجود ندارد.</string>
+    <string name="download_all_images_progress_title">دریافت تصاویر</string>
+    <string name="download_all_images_progress_title_p1">تصاویر دریافتی</string>
+    <string name="message_title_default_section">تنظیمات پیش فرض</string>
+    <string name="message_desc_default_section" formatted="false">ایا مایل هستید تنظیمات پیش فرض برای قسمت %s اعمال
+        شود؟
+    </string>
+    <string name="message_title_ok_section">اعمال تنظیمات</string>
+    <string name="message_desc_ok_section" formatted="false">آیا تنظیمات مربوط به بخش %s اعمال و ذخیره شود؟</string>
+    <string name="message_desc_ok_section_all">آیا تنظیمات برای تمام قسمت ها اعمال شود؟</string>
+
+</resources>

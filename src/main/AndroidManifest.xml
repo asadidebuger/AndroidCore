@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    >
 
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <application>
+        <provider
+            android:name="ir.microsign.utility.GenericFileProvider"
+            android:authorities="${applicationId}.microsign"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+        <activity android:name=".contentcore.activity.ActivityContentUpdaterUi"/>
+        <activity android:name=".content.activity.ActivityContentMain"/>
+        <activity android:name=".content.activity.ActivityFullContent"/>
+        <activity android:name=".content.activity.ActivitySearch"/>
+        <activity android:name=".api.activity.ActivityTicket"/>
+        <activity android:name=".api.activity.ActivityIntro"/>
+        <activity android:name=".api.activity.ActivityApps"/>
+        <activity android:name=".api.activity.ActivitySignUp"/>
+        <activity android:name=".settings.activity.ActivitySetting"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 </manifest>
+

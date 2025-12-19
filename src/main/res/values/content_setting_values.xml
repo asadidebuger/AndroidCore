@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="content_item_height">200dp</dimen>
+    <dimen name="category_item_height">60dp</dimen>
+    <dimen name="header_height">45dp</dimen>
+    <bool name="show_content_intro_text">true</bool>
+    <bool name="show_content_title">true</bool>
+    <bool name="show_content_date">true</bool>
+    <!--<bool name="show_content_up_title">false</bool>-->
+    <!--<bool name="show_content_sub_title">false</bool>-->
+    <bool name="show_content_thumb_image">true</bool>
+
+    <bool name="show_please_rate_on_exit">false</bool>
+    <bool name="update_all_after_payment">false</bool>
+
+
+    <dimen name="content_logo_description_font_size">15sp</dimen>
+    <integer name="content_logo_font_index">0</integer>
+    <bool name="content_full_show_images_before">false</bool>
+    <bool name="content_full_show_images_after">true</bool>
+    <bool name="content_full_show_images_first">false</bool>
+    <bool name="content_full_show_images_navigator">true</bool>
+    <bool name="content_feature_show_images_navigator">true</bool>
+    <bool name="content_full_show_date">false</bool>
+    <string name="content_pattern_name"></string>
+
+    <bool name="content_list_have_animation">false</bool>
+    <bool name="content_is_rtl">true</bool>
+
+<!--    <dimen name="content_item_height">50dp</dimen>-->
+<!--    <dimen name="category_item_height">40dp</dimen>-->
+
+
+<!--    <bool name="show_please_rate_on_exit">true</bool>-->
+<!--    <bool name="update_all_after_payment">true</bool>-->
+<!--    <dimen name="content_logo_description_font_size">10sp</dimen>-->
+<!--    <integer name="content_logo_font_index">0</integer>-->
+
+
+<!--    <bool name="show_content_intro_text">false</bool>-->
+<!--    <bool name="show_content_title">true</bool>-->
+<!--    <bool name="show_content_date">false</bool>-->
+<!--    <bool name="show_content_thumb_image">true</bool>-->
+
+<!--    <bool name="content_full_show_images_before">true</bool>-->
+<!--    <bool name="content_full_show_images_after">true</bool>-->
+<!--    <bool name="content_full_show_images_first">true</bool>-->
+<!--    <bool name="content_full_show_images_navigator">false</bool>-->
+<!--    <bool name="content_full_show_date">false</bool>-->
+<!--    <bool name="content_list_have_animation">false</bool>-->
+
+
+
+    <integer name="search_limit">7</integer>
+    <array name="book_header_buttons">
+        <item>کتاب</item>
+        <item>آموخته ها</item>
+        <item>مهمترین ها</item>
+        <item>یادداشت</item>
+        <item>جستجو</item>
+    </array>
+</resources>

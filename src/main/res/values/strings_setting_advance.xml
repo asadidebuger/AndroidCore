@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setting_advance_title_locale">تنظیمات زبان</string>
+    <string name="setting_advance_desc_locale">زبانی که برنامه باید طبق آن نمایش دهد</string>
+    <string-array name="locales">
+        <item>system</item>
+        <item>fa</item>
+        <item>en</item>
+    </string-array>
+    <string-array name="locales_title">
+        <item>سیستم</item>
+        <item>فارسی</item>
+        <item>انگلیسی</item>
+    </string-array>
+    <string-array name="locales_desc">
+        <item>مطابق با سیستم آندروید</item>
+        <item>زبان فارسی</item>
+        <item>زبان انگلیسی</item>
+    </string-array>
+
+    <string name="setting_advance_title_calendar">تقویم</string>
+    <string name="setting_advance_desc_calendar">نمایش تاریخ ها در برنامه با توجه به نوع تقویم انتخاب شده نمایش داده می
+        شود
+    </string>
+    <string-array name="calendar_types">
+        <item>gregorian</item>
+        <item>persian</item>
+        <item>islamic</item>
+    </string-array>
+    <string-array name="calendar_title">
+        <item>میلادی</item>
+        <item>هجری شمسی</item>
+        <item>هجری قمری</item>
+    </string-array>
+    <string-array name="calendar_desc">
+        <item>نمایش تاریخ بر اساس تقویم میلادی</item>
+        <item>نمایش تاریخ بر اساس تقویم هجری شمسی</item>
+        <item>نمایش تاریخ بر اساس تقویم هجری قمری</item>
+    </string-array>
+</resources>

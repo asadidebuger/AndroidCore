@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:gravity="right"
+              android:clickable="true" android:id="@+id/ll_root" android:background="@color/white">
+
+    <include android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             layout="@layout/inline_header_setting"/>
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollView" android:layout_weight="1" android:paddingTop="1px"
+            style="@style/scrollbar_style">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:background="@color/color_light_t" android:padding="5dp" android:id="@+id/ll_font_name"
+                          android:layout_marginTop="1dp">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:gravity="center_vertical|right">
+                    <ImageButton android:layout_width="wrap_content" android:layout_height="40dp"
+                                 android:text="@string/settings_default" android:id="@+id/btn_font_def_font"
+                                 android:src="@drawable/icon_refresh" android:scaleType="centerInside"
+                                 android:adjustViewBounds="true"
+                                 android:background="@drawable/back_selectable_light_btn"/>
+                    <ImageButton android:layout_width="wrap_content" android:layout_height="40dp"
+                                 android:text="@string/settings_change" android:id="@+id/btn_font_change_font"
+                                 android:src="@drawable/icon_edit" android:scaleType="centerInside"
+                                 android:adjustViewBounds="true"
+                                 android:background="@drawable/back_selectable_light_btn" android:visibility="gone"/>
+                    <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/txt_font_name_value" android:layout_weight="1" android:gravity="center"
+                            android:textColor="@color/color_gray1"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/setting_font_title_font_name"
+                            android:id="@+id/txt_font_name" android:textColor="@color/color_gray2"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:background="@color/color_light_t" android:padding="5dp"
+                          android:id="@+id/ll_font_color"
+                          android:layout_marginTop="1dp">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+                              android:layout_height="fill_parent" android:gravity="center_vertical|right">
+                    <ImageButton android:layout_width="wrap_content" android:layout_height="40dp"
+                                 android:text="@string/settings_default" android:id="@+id/btn_font_def_color"
+                                 android:src="@drawable/icon_refresh" android:scaleType="centerInside"
+                                 android:adjustViewBounds="true"
+                                 android:background="@drawable/back_selectable_light_btn"/>
+                    <ImageButton android:layout_width="wrap_content" android:layout_height="40dp"
+                                 android:text="@string/settings_change" android:id="@+id/btn_font_change_color"
+                                 android:src="@drawable/icon_edit" android:scaleType="centerInside"
+                                 android:adjustViewBounds="true"
+                                 android:background="@drawable/back_selectable_light_btn" android:visibility="gone"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="35dp"
+                                  android:layout_height="fill_parent" android:id="@+id/ll_font_color_value"
+                                  android:layout_marginTop="2dp" android:layout_marginBottom="4dp"/>
+                    <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" android:layout_weight="1">
+                    </LinearLayout>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="@string/setting_font_title_font_color" android:id="@+id/txt_font_color"
+                              android:textColor="@color/color_gray2"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                          android:layout_height="wrap_content" android:background="@color/color_light_t"
+                          android:padding="5dp" android:id="@+id/ll_font_back_color" android:layout_marginTop="1dp">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+                              android:layout_height="fill_parent" android:gravity="center_vertical|right">
+                    <ImageButton android:layout_width="wrap_content" android:layout_height="40dp"
+                                 android:text="@string/settings_default" android:id="@+id/btn_font_def_back_color"
+                                 android:src="@drawable/icon_refresh" android:scaleType="centerInside"
+                                 android:adjustViewBounds="true"
+                                 android:background="@drawable/back_selectable_light_btn"/>
+                    <ImageButton android:layout_width="wrap_content" android:layout_height="40dp"
+                                 android:text="@string/settings_change" android:id="@+id/btn_font_change_back_color"
+                                 android:src="@drawable/icon_edit" android:scaleType="centerInside"
+                                 android:adjustViewBounds="true"
+                                 android:background="@drawable/back_selectable_light_btn" android:visibility="gone"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="35dp"
+                                  android:layout_height="fill_parent" android:id="@+id/ll_font_back_color_value"
+                                  android:layout_marginTop="2dp" android:layout_marginBottom="4dp"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+                                  android:layout_height="fill_parent" android:layout_weight="1"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="@string/setting_font_title_font_back_color"
+                              android:id="@+id/txt_font_back_color"
+                              android:textColor="@color/color_gray2"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:background="@color/color_light_t" android:padding="5dp" android:id="@+id/ll_font_size"
+                          android:layout_marginTop="1dp">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+                              android:layout_height="fill_parent" android:gravity="center_vertical|right">
+                    <ImageButton android:layout_width="wrap_content" android:layout_height="40dp"
+                                 android:text="@string/settings_default" android:id="@+id/btn_font_def_size"
+                                 android:src="@drawable/icon_refresh" android:scaleType="centerInside"
+                                 android:adjustViewBounds="true"
+                                 android:background="@drawable/back_selectable_light_btn"/>
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                              android:id="@+id/txt_font_size_value" android:layout_weight="1" android:gravity="center"
+                              android:textColor="@color/color_gray1"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="@string/setting_font_title_font_size" android:id="@+id/txt_font_size"
+                              android:textColor="@color/color_gray2"/>
+                </LinearLayout>
+                <SeekBar
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/seek_font_size" android:indeterminate="false" android:max="100"
+                        />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:background="@color/color_light_t" android:padding="5dp"
+                          android:id="@+id/ll_font_line_height"
+                          android:layout_marginTop="1dp">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+                              android:layout_height="fill_parent" android:gravity="center_vertical|right">
+                    <ImageButton android:layout_width="wrap_content" android:layout_height="40dp"
+                                 android:text="@string/settings_default" android:id="@+id/btn_font_def_line_height"
+                                 android:src="@drawable/icon_refresh" android:scaleType="centerInside"
+                                 android:adjustViewBounds="true"
+                                 android:background="@drawable/back_selectable_light_btn"/>
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                              android:id="@+id/txt_font_line_height_value" android:layout_weight="1"
+                              android:gravity="center"
+                              android:textColor="@color/color_gray1"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="@string/setting_font_title_font_line_height"
+                              android:id="@+id/txt_font_line_height"
+                              android:textColor="@color/color_gray2"/>
+                </LinearLayout>
+                <SeekBar android:layout_width="fill_parent" android:layout_height="wrap_content"
+                         android:id="@+id/seek_font_line_height"
+                         android:indeterminate="false" android:max="50"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:background="@color/color_light_t" android:padding="5dp"
+                          android:id="@+id/ll_font_sample"
+                          android:layout_marginTop="1dp">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+                              android:layout_height="fill_parent" android:gravity="center_vertical|right">
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                              android:text="@string/setting_font_title_font_sample" android:id="@+id/txt_font_sample"
+                              android:layout_weight="1"
+                              android:textColor="@color/color_gray2"/>
+                </LinearLayout>
+                <view android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      class="ir.microsign.view.ViewHtml" android:id="@+id/web_sample_text"
+                      android:layout_marginTop="2dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

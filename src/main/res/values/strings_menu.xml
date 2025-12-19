@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_title_first_page">صفحه نخست</string>
+    <string name="menu_desc_first_page">پرش به صفحه اصلی نرم افزار</string>
+
+    <string name="menu_title_add_fav">نشانه گذاری</string>
+    <string name="menu_desc_add_fav">افزودن مطلب به فهرست علاقه مندی ها</string>
+    <string name="menu_title_del_fav">حذف نشانه</string>
+    <string name="menu_desc_del_fav">حذف مطلب از فهرست علاقه مندی ها</string>
+
+    <string name="menu_title_search">جستجو</string>
+    <string name="menu_desc_search">جسستجو در مطالب</string>
+
+    <string name="menu_title_fav">فهرست علاقمندی ها</string>
+    <string name="menu_desc_fav">مطالب نشانه گذاری شده</string>
+
+    <string name="menu_title_clean_images">پاکسازی تصاویر</string>
+    <string name="menu_desc_clean_images">پاکسازی تصاویر ذخیره شده</string>
+
+    <string name="menu_title_clean">پاکسازی</string>
+    <string name="menu_desc_clean">میتوانید مطالب و تصاویر ذخیره شده را پاک کنید</string>
+
+    <string name="menu_title_update">به روز رسانی</string>
+    <string name="menu_desc_update">بررسی و به روز رسانی محتوا</string>
+    <string name="menu_title_profile">پروفایل کاربر</string>
+    <string name="menu_desc_profile">مشاهده و تغییر مشخصات کاربر</string>
+
+    <string name="menu_title_clean_all">پاکسازی کامل</string>
+    <string name="menu_desc_clean_database">حذف تمام محتوای ذخیره شده</string>
+
+    <string name="menu_title_show_images">نمایش تصاویر</string>
+    <string name="menu_desc_show_images">نمایش تصاویر این مطلب</string>
+
+    <string name="menu_title_share">اشتراگ گذاری</string>
+    <string name="menu_desc_share">ارسال نرم افزار به دیگران</string>
+
+    <string name="menu_title_report">گزارش</string>
+    <string name="menu_desc_report">گزارش خطا یا ارائه پیشنهاد</string>
+
+    <string name="menu_title_about_us">درباره ما</string>
+    <string name="menu_desc_about_us">اطلاعات نرم افزار و توسعه دهنده</string>
+
+    <string name="menu_title_settings">تنظیمات</string>
+    <string name="menu_desc_settings">تنظیمات قلم و ظاهر</string>
+
+    <string name="menu_title_exit">خروج</string>
+    <string name="menu_desc_exit">خارج شدن از برنامه</string>
+
+    <string name="menu_title_persian_problem">Persian Reshape</string>
+    <string name="menu_desc_persian_problem">Persian texts are unreadable?</string>
+    <string name="menu_title_notification">اطلاعیه ها</string>
+    <string name="menu_desc_notification">آرشیو اطلاعیه های دریافت شده</string>
+    <string name="menu_title_purchase">پرداخت هزینه دسترسی</string>
+    <string name="menu_desc_purchase">خریدن مجوز دسترسی به این بخش</string>
+    <string name="menu_title_questions">طرح سوال</string>
+    <string name="menu_desc_questions">آیا با مشکلی مواجه شده اید؟ خب سوال کنید!</string>
+    <string name="menu_title_download_all_images">دریافت تصاویر</string>
+    <string name="menu_desc_download_all_images">بررسی تصاویر ناموجود و دریافت آنها</string>
+
+</resources>

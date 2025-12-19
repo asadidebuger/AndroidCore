@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bkg_blur" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_microsign_watermark" />
+
+    <LinearLayout
+        android:id="@+id/ll_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_above="@+id/imageView2"
+        android:layout_marginBottom="-20dp"
+        android:layout_marginLeft="-20dp"
+        android:layout_toRightOf="@+id/imageView2"
+        android:background="@drawable/bkg_btn_intro_selectable"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_above="@+id/imageView2"
+        android:layout_marginBottom="-20dp"
+        android:layout_marginRight="-20dp"
+        android:layout_toLeftOf="@+id/imageView2"
+        android:background="@drawable/bkg_btn_intro_selectable"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginRight="-20dp"
+        android:layout_marginTop="-20dp"
+        android:layout_toLeftOf="@+id/imageView2"
+        android:background="@drawable/bkg_btn_intro_selectable"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginTop="-20dp"
+        android:layout_toRightOf="@+id/imageView2"
+        android:background="@drawable/bkg_btn_intro_selectable"
+        android:text="Button" />
+
+    <ImageView
+        android:id="@+id/img_close"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/bkg_btn_intro_selectable"
+
+        android:src="@drawable/icon_close" />
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_open_file_chooser_title">باز کردن فایل</string>
+    <string name="ok">تایید</string>
+    <string name="yes">بله</string>
+    <string name="cancel">لغو</string>
+    <string name="please_wait">لطفا منتظر بمانید..</string>
+    <string name="connect">اینترنت وصل است</string>
+    <string name="disconnect">اینترنت قطع است</string>
+    <string name="connect_on_wireless">روشن کردن شبکه وایرلس</string>
+    <string name="connect_on_data">روشن کردن شبکه دیتا</string>
+    <string name="connect_retry">تلاش مجدد</string>
+    <string name="connect_desc">دسترسی به اینترنت امکانپذیر نیست!</string>
+    <string name="connect_retry_desc">دسترسی به اینترنت هنوز فراهم نشده است!</string>
+    <string name="connect_title">اتصال به اینترنت</string>
+    <string name="persian_text">
+        این یِک مَتن فارسی است
+        \n
+النص العادي في العربية
+        \n
+آیا متن را درست مشاهده می کنید؟
+
+    </string>
+    <string name="persian_text_web">«بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ»!
+    \n
+                این یِک مَتن فارسی است
+        \n
+النص العادي في العربية
+        \n
+آیا متن را درست مشاهده می کنید؟
+         اگر این چنین است دکمهٔ OK را لمس کنید.
+        همچنین اعداد:
+        \n
+        300+ 200=500
+    \n
+        این ابزار از منوی سمت چپ قابل دسترسی است.</string>
+    <string name="remember">از این پس این سوال را نپرس!</string>
+    <string name="message_rate_app_title">امتیاز دادن به برنامه</string>
+    <string name="message_rate_app_desc">اگر از برنامه خوشتون اومده با دادن نظر خودتون از این برنامه
+        حمایت کنید تا ما با انرژی بیشتری برنامه را توسعه دهیم...
+    </string>
+    <string name="message_rate_app_cancel_desc">آیا مایلید بعداً به برنامه امتیاز دهید؟
+    </string>
+    <string name="btn_ok_rate_app">امتیاز میدم!</string>
+    <string name="btn_rate_app_later">بعداً امتیاز میدم!</string>
+    <string name="btn_rate_app_never">هرگز!</string>
+    <string name="btn_cancel_rate_app">فعلا بی خیال!</string>
+    <string name="message_finished_rate_app">از اینکه به برنامه امتیاز دادید بسیار سپاسگزاریم...</string>
+    <string name="app_permission_failed_title">دسترسی محدود شده!</string>
+    <string name="app_permission_failed_desc">این نرم افزار برای اجرا شدن نیاز به دسترسی به شناسه تلفن و حافظه دستگاه شما دارد!
+        \n
+        آیا میخواهید مجدداً تلاش کنید؟</string>
+    <string name="retry">تلاش مجدد!</string>
+    <string name="alert_permission_need_grant" formatted="false">لازم است به برنامه اجازه دسترسی به مورد زیر داده شود:
+    %s</string>
+    <string name="profile_help">هر دستگاهی که برنامه روی آن نصب می شود یک کاربر محسوب میشود و در تعامل با سرور به عنوان
+        یک کاربر به منابع مختلف دست پیدا میکند. در برخی موارد ممکن است به اطلاعاتی برای تماس یا اطلاع رسانی با صاحب
+        دستگاه نیاز باشد. در این صورت نیاز است کاربر اطلاعات تماس خود را به صورت صحیح در سرور ثبت نماید. صحت این اطلاعات
+        مخصوصا پست الکترونیکی مهم است چرا که برای ما صاحب پست الکترونیکی صاحب دستگاه محسوب می شود و در مواردی که مشکلی
+        وجود دارد از این طریق با وی مکاتبه خواهد شد.
+        پر کردن موارد ستاره دار برای شناسایی کاربر الزامی می باشد و موارد دیگر الزامی نیست مگر در موارد خاصی که از کاربر
+        خواسته می شود اطلاعات بیشتری را وارد نماید. پس از وارد کردن اطلاعات با لمس دکمه اعمال تغییرات اطلاعات وارد شده
+        در سرور ثبت خواهد شد. از اینکه با وارد کردن اطلاعات صحیح ما را در پشتیبانی و ارتقای برنامه یاری میکنید سپاس
+        گذاریم.
+        \n نکته: درصورتی که پروفایل خود را در برنامه های دیگری که توسط توسعه دهنده ی این برنامه منتشر شده است وارد نموده
+        اید میتوانید دکمه ی به روز رسانی را که در کنار دکمه ی راهنما تعبیه شده است لمس نمایید. در این صورت اطلاعات
+        پروفایل شما از سرور دریافت خواهد شد.
+    </string>
+    <string name="profile_select_country">انتخاب کشور</string>
+    <string name="profile_select_region">انتخاب استان</string>
+    <string name="profile_select_city">انتخاب شهرستان</string>
+    <string name="profile_select_error_title">خطا در اولویت انتخاب</string>
+    <string name="profile_select_error_desc" formatted="false">برای انتخاب %s ابتدا باید %s را انتخاب کنید.</string>
+    <string name="first_name">نام</string>
+    <string name="last_name">نام خانوادگی</string>
+    <string name="country">کشور</string>
+    <string name="city">شهرستان</string>
+    <string name="region">استان</string>
+    <string name="mobile">شماره تلفن همراه</string>
+    <string name="email">آدرس پست الکترونیکی</string>
+    <string name="email_example"></string>
+    <string name="address">آدرس</string>
+    <string name="phone">شماره تلفن ثابت</string>
+
+    <string name="hint_first_name">نام خود را اینجا درج کنید</string>
+    <string name="hint_last_name">نام خانوادگی خود را اینجا درج کنید</string>
+    <string name="hint_country">کشوری که در آن ساکن هستید</string>
+    <string name="hint_city">شهرستان محل سکونت</string>
+    <string name="hint_region">استان محل سکونت</string>
+    <string name="hint_mobile">شماره همراه به صورت کامل</string>
+    <string name="hint_email">Example:everyone@domain.com</string>
+    <string name="hint_address">آدرس دقیق محل سکونت در شهرستان</string>
+    <string name="hint_phone">شماره تلفن ثابت به صورت کامل</string>
+
+
+    <string name="check_fields_title">موارد خواسته شده را وارد کنید</string>
+    <string name="check_fields_desc" formatted="false">%s نمی تواند خالی باشد</string>
+    <string name="check_fields_desc2" formatted="false">ورودی %s برای %s قابل قبول نیست. لطفا یک %s معتبر وارد کنید.
+    </string>
+
+
+    <string name="apply_changes">اعمال تغییرات</string>
+    <string name="edit_profile_title">ویرایش پروفایل کاربری</string>
+    <string name="edit_profile_star_desc">توجه: فقط موارد ستاره دار اجباری است</string>
+
+    <string name="message_title_profile_updated_succeed">تغییر پروفایل موفقیت آمیز</string>
+    <string name="message_desc_profile_updated_succeed">پروفایل کاربری مربوط به دستگاه شما با موفقیت به روز رسانی شد.
+        دقت کنید اطلاعات وارد شده معتبر باشد چرا که برای اطلاع رسانی یا ارائه ی محتوا به شما از این اطلاعات استفاده
+        خواهد شد.
+    </string>
+    <string name="message_title_profile_updated_failed">تغییرات پروفایل اعمال نشد</string>
+    <string name="message_desc_profile_updated_failed">متاسفانه اطلاعات وارد شده در پروفایل کاربری مربوط به دستگاه شما
+        ذخیره نشد.لطفا از اتصال به اینترنت مطمئن شوید و بعدا مجددا تلاش نمایید.
+    </string>
+
+    <string name="message_title_profile_updated">به روز رسانی مشخصات کاربری</string>
+    <string name="message_desc_profile_updated">آیا اطلاعات وارد شده برای پروفایل کاربری مربوط به دستگاه شما ثبت شود؟ از
+        صحت اطلاعات وارد شده اطمینان حاصل کنید زیرا برای اطلاع رسانی یا ارایه محتوا از این اطلاعات استفاده خواهد شد.
+    </string>
+</resources>

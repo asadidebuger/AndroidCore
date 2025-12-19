@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_options_case_sensitivity">حساسیت به بزرگی و کوچکی حروف</string>
+    <string name="search_options_case_sensitivity_desc">این مورد برای جستجوی عبارات لاتین کاربرد دارد</string>
+    <string name="search_options_in_all_categories">جستجو در همه بخش ها</string>
+    <string name="search_options_in_all_categories_desc">جستجو در میان همه ی بخش ها یا تنها بخش کنونی</string>
+    <string name="search_options_in_titles">جستجو در عنوان</string>
+    <string name="search_options_in_titles_desc">جستجو در عنوان مطالب</string>
+    <string name="search_options_in_intro">جستجو در متن مقدمه</string>
+    <string name="search_options_in_intro_desc">جستجو در متن مقدمه مطالب</string>
+    <string name="search_options_in_full_text">جستجو در متن اصلی</string>
+    <string name="search_options_in_full_text_desc">جستجو در متن اصلی مطالب</string>
+    <string name="search_options_title">امکانات جستجو</string>
+    <string name="search_options_search_in_time">جستجوی بی درنگ</string>
+    <string name="search_options_search_in_time_desc">جستجوی عبارت به محض تغییر عبارت مورد جستجو</string>
+    <string name="search_clear_history_title">حذف تاریخچه جستجو</string>
+    <string name="search_clear_history_desc_ok">تاریخچه جستجو حذف شد!</string>
+    <string name="search_clear_history_desc">آیا مایل هستید تاریخچه جستجو های قبلی حذف شود؟</string>
+</resources>

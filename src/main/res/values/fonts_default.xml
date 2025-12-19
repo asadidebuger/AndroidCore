@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="name_h1">mitrabold</string>
+    <string name="name_h3">nazaninbold</string>
+    <string name="name_h2">zarbold</string>
+
+    <string name="name_web">koodakbold</string>
+    <string name="name_webrtl">koodakbold</string>
+    <string name="name_p">koodakbold</string>
+    <string name="name_def">koodakbold</string>
+    <string name="name_small">mitra</string>
+
+    <integer name="index_h1">5</integer>
+    <integer name="size_h1">16</integer>
+    <integer name="size_h2">14</integer>
+    <integer name="size_h3">14</integer>
+    <integer name="size_def">14</integer>
+    <integer name="size_p">14</integer>
+    <integer name="size_small">10</integer>
+    <integer name="size_web">15</integer>
+    <integer name="size_webrtl">15</integer>
+
+
+    <integer name="line_web">140</integer>
+    <color name="color_web">#262626</color>
+    <color name="backcolor_web">#ffffff</color>
+
+    <integer name="line_webrtl">140</integer>
+    <color name="color_webrtl">#282828</color>
+    <color name="backcolor_webrtl">#ffffff</color>
+
+    <string name="font_name_farnaz">فرناز</string>
+    <string name="font_name_tahoma">تاهما</string>
+    <string name="font_name_tahomabold">تاهما توپر</string>
+    <string name="font_name_homa">هما</string>
+    <string name="font_name_jadidbold">جدید</string>
+    <string name="font_name_koodakbold">کودک توپر</string>
+    <string name="font_name_mitra">میترا</string>
+    <string name="font_name_mitrabold">میترا توپر</string>
+    <string name="font_name_nasimbold">نسیم توپر</string>
+    <string name="font_name_nazanin">نازنین</string>
+    <string name="font_name_shiraz">شیراز</string>
+    <string name="font_name_titrbold">تیتر توپر</string>
+    <string name="font_name_trafic">ترافیک</string>
+    <string name="font_name_traficbold">ترافیک توپر</string>
+    <string name="font_name_yekan">یکان</string>
+    <string name="font_name_zar">زر</string>
+    <string name="font_name_zarbold">زر توپر</string>
+    <string name="font_name_nazaninbold">نازنین توپر</string>
+    <string name="font_name_arial">آریال</string>
+    <string name="font_name_arialbold">آریال توپر</string>
+    <string name="font_name_zdastnevis">دست نویس</string>
+    <string name="font_name_zshekari">شکاری</string>
+
+    <string name="font_name_yakan">یکان</string>
+</resources>

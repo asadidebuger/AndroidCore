@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_weight="1">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:background="@color/white">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <ImageView android:layout_width="40dp" android:layout_height="fill_parent" android:id="@+id/img_close"
+                           android:src="@drawable/icon_close_white" android:scaleType="centerInside"
+                           android:layout_alignBottom="@+id/txt_title"
+                           android:background="@drawable/back_simple_header_close" android:layout_marginTop="-5dp"
+                           android:paddingTop="5dp"/>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" android:background="@drawable/back_simple_header_right"
+                        android:layout_weight="1" android:layout_marginLeft="5dp" android:layout_marginRight="-5dp"
+                        android:layout_marginTop="-5dp" android:paddingTop="5dp">
+                    <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/etxt_search" android:layout_weight="1" android:selectAllOnFocus="true"
+                            android:inputType="text|textFilter" android:textColor="@color/color_simple_header_txt"/>
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                              android:id="@+id/txt_title"
+                              android:gravity="center_horizontal" android:textColor="@color/color_simple_header_txt"
+                              android:layout_alignParentTop="true"
+                              android:layout_weight="1"
+                              android:padding="5dp"/>
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/img_search" android:src="@drawable/icon_search_white"
+                            />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:background="@color/white" android:id="@+id/relativeLayout">
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                       android:id="@+id/imageView" android:src="@drawable/metro_white" android:scaleType="centerCrop"
+                       android:layout_alignParentTop="false" android:layout_alignParentLeft="false"
+                       android:adjustViewBounds="true" android:layout_alignParentBottom="true"/>
+            <ScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/scrollView" style="@style/scrollbar_style" android:paddingTop="1px">
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:id="@+id/ll_root">
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

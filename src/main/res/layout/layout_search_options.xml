@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+        >
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:gravity="center_vertical"
+            android:background="@color/color_gray1" android:padding="5dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_search_options_title" android:layout_weight="1"
+                android:textColor="@color/white" android:text="@string/search_options_title"
+                android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_selectable_menu_item" android:padding="2dp" android:visibility="gone">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_search_in_time"
+                    android:textColor="@color/color_gray1"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_search_in_time_desc"
+                    android:textColor="@color/color_gray2"/>
+        </LinearLayout>
+        <ir.microsign.views.Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/switch_light"
+                android:textAppearance="@style/TextAppearance" android:id="@+id/sw_search_in_time"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_selectable_menu_item" android:padding="2dp" android:visibility="gone">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_search_case_sensitivity"
+                    android:textColor="@color/color_gray1"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_search_case_sensitivity_desc"
+                    android:textColor="@color/color_gray2"/>
+        </LinearLayout>
+        <ir.microsign.views.Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/switch_light"
+                android:textAppearance="@style/TextAppearance" android:id="@+id/sw_search_case_sensitivity"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_selectable_menu_item" android:padding="2dp" android:visibility="visible">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_search_in_all_categories"
+                    android:textColor="@color/color_gray1"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_search_in_all_categories_desc"
+                    android:textColor="@color/color_gray2"/>
+        </LinearLayout>
+        <ir.microsign.views.Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/switch_light"
+                android:textAppearance="@style/TextAppearance" android:id="@+id/sw_search_in_all_categories"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_selectable_menu_item" android:padding="2dp" android:visibility="gone">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                      android:layout_height="wrap_content" android:id="@+id/linearLayout" android:layout_weight="1">
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_search_in_titles"
+                    android:textColor="@color/color_gray1"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_search_in_titles_desc"
+                    android:textColor="@color/color_gray2"/>
+        </LinearLayout>
+        <ir.microsign.views.Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/switch_light"
+                android:textAppearance="@style/TextAppearance" android:id="@+id/sw_search_in_titles"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_selectable_menu_item" android:padding="2dp" android:visibility="gone">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                      android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_weight="1">
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_search_in_intro"
+                    android:textColor="@color/color_gray1"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_search_in_intro_desc"
+                    android:textColor="@color/color_gray2"/>
+        </LinearLayout>
+        <ir.microsign.views.Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/switch_light"
+                android:textAppearance="@style/TextAppearance" android:id="@+id/sw_search_in_intro"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_selectable_menu_item" android:padding="2dp" android:visibility="gone">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                      android:layout_height="wrap_content" android:id="@+id/linearLayout3" android:layout_weight="1">
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_search_in_full_text"
+                    android:textColor="@color/color_gray1"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_search_in_full_text_desc"
+                    android:textColor="@color/color_gray2"/>
+        </LinearLayout>
+        <ir.microsign.views.Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/switch_light"
+                android:textAppearance="@style/TextAppearance" android:id="@+id/sw_search_in_full_text"/>
+    </LinearLayout>
+</LinearLayout>

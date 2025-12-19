@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="key_font_index">key_font_index_</string>
+    <string name="key_font_size">key_font_size_</string>
+    <string name="key_font_color">key_font_color_</string>
+    <string name="key_font_back_color">key_font_back_color_</string>
+    <string name="key_font_line_height">key_font_line_height_</string>
+
+    <string name="settings_key_reshape">settings_key_reshape</string>
+    <string name="settings_key_reshape_web">settings_key_reshape_web</string>
+
+</resources>

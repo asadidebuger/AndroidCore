@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+<LinearLayout
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:minWidth="220dp"
+              android:padding="5dp" android:background="@drawable/dialogborder">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/connect_title"
+            android:id="@+id/txt_title"
+            android:padding="5dp"
+            android:gravity="center" android:textSize="19dp" android:textStyle="bold"
+            android:textColor="@color/white" android:background="@color/color_message_box_title_background"
+            android:layout_marginBottom="3dp"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/connect_on_wireless"
+            android:id="@+id/btn_connect_wireless" android:textSize="18dp"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/connect_on_data"
+            android:id="@+id/btn_connect_data" android:textSize="18dp"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/linearLayout">
+
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/connect_retry"
+                android:id="@+id/btn_connect_retry"
+                android:textSize="18dp" android:layout_weight="1"/>
+
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:id="@+id/btn_connect_cancel"
+                android:focusableInTouchMode="false"
+                android:textSize="18dp" android:layout_weight="1.5"/>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

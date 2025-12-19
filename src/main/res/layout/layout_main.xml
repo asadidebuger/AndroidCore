@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      class="androidx.drawerlayout.widget.DrawerLayout" android:id="@+id/drawer_layout">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:id="@+id/ll_root"
+                  android:background="@drawable/pattern_background">
+
+        <include layout="@layout/inline_header_main"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="1" android:id="@+id/ll_main">
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" android:layout_weight="2.1" android:id="@+id/ll_part_left">
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" android:layout_weight="1">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:layout_weight="1" android:id="@+id/ll_part_right">
+                </LinearLayout>
+                <view android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      class="ir.microsign.contentcore.view.NavigationPathView" android:id="@+id/navigation_path"
+                      android:background="@color/white" android:paddingLeft="5dp" android:paddingRight="5dp"
+                      android:paddingTop="1dp" android:paddingBottom="1dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:id="@+id/ll_bottom"
+                      android:layout_height="wrap_content" android:layout_width="fill_parent"
+                      android:gravity="center" android:background="@drawable/back_tabs_simple0"
+                      android:orientation="horizontal">
+            <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent"
+                       android:id="@+id/img_nav_left"
+                       android:src="@drawable/nav_left" android:adjustViewBounds="true" android:padding="5dp"/>
+            <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hscrol_bottom" style="@style/scrollbar_style"
+                    android:scrollbars="horizontal|vertical" android:layout_weight="1">
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:orientation="horizontal" android:background="@color/color_tabs_space0"
+                              android:gravity="right" android:id="@+id/ll_bottom_items">
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/img_nav_right" android:src="@drawable/nav_right" android:adjustViewBounds="true"
+                    android:padding="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_tabs_simple0"
+                android:id="@+id/ll_categories_container">
+            <view android:layout_width="wrap_content"
+                  android:layout_height="@dimen/category_item_height"
+
+                  class="ir.microsign.contentcore.view.CategoriesView" android:id="@+id/view"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+    <ir.microsign.apphelper.view.MenuView
+            android:id="@+id/slide_menu" android:layout_width="wrap_content" android:layout_height="fill_parent"
+            android:layout_gravity="start"
+            android:background="@drawable/back_simple_slide_menu"/>
+</view>

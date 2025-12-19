@@ -1,0 +1,57 @@
+<resources>
+	<string-array name="calendar_months_persian">
+		<item></item>
+		<item>فروردین</item>
+		<item>ادیبهشت</item>
+		<item>خرداد</item>
+		<item>تیر</item>
+		<item>مرداد</item>
+		<item>شهریور</item>
+		<item>مهر</item>
+		<item>آبان</item>
+		<item>آذر</item>
+		<item>دی</item>
+		<item>بهمن</item>
+		<item>اسفند</item>
+	</string-array>
+	<string-array name="calendar_months_islamic">
+		<item></item>
+		<item>محرم</item>
+		<item>صفر</item>
+		<item>ربيع‌الاول</item>
+		<item>ربيع‌الثاني</item>
+		<item>جمادي‌الاول</item>
+		<item>جمادي‌الثاني</item>
+		<item>رجب</item>
+		<item>شعبان</item>
+		<item>رمضان</item>
+		<item>شوال</item>
+		<item>ذي‌القعده</item>
+		<item>ذي‌الحجه</item>
+	</string-array>
+	<string-array name="calendar_months_gregorian">
+		<item></item>
+		<item>ژانویه</item>
+		<item>فوریه</item>
+		<item>مارس</item>
+		<item>آوریل</item>
+		<item>مه</item>
+		<item>ژون</item>
+		<item>جولای</item>
+		<item>آگوست</item>
+		<item>سپتامبر</item>
+		<item>اکتبر</item>
+		<item>نوامبر</item>
+		<item>دسامبر</item>
+	</string-array>
+	<string-array name="calendar_week_day_names">
+		<item></item>
+		<item>یکشنبه</item>
+		<item>دوشنبه</item>
+		<item>سه شنبه</item>
+		<item>چهارشنبه</item>
+		<item>پنجشنبه</item>
+		<item>جمعه</item>
+		<item>شنبه</item>
+	</string-array>
+</resources>

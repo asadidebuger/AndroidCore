@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent" android:layout_height="fill_parent"
+              android:orientation="horizontal">
+    <LinearLayout
+            android:id="@+id/state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical" android:layout_below="@+id/ll_sqr" android:layout_alignParentBottom="true"
+            android:layout_gravity="center_vertical" android:layout_marginLeft="@dimen/spacer">
+
+        <FrameLayout
+                android:layout_width="30dp"
+                android:layout_height="30dp">
+
+            <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/alphacheckered_tiled"/>
+
+            <View
+                    android:id="@+id/oldColor"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#faa"/>
+        </FrameLayout>
+
+        <ImageView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/spacer"
+                android:paddingRight="@dimen/spacer"
+                android:src="@drawable/icon_arrow_down" android:adjustViewBounds="true"
+                android:scaleType="centerInside"/>
+
+        <FrameLayout
+                android:layout_width="30dp"
+                android:layout_height="30dp">
+
+            <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/alphacheckered_tiled"/>
+
+            <View
+                    android:id="@+id/newColor"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#aaf"/>
+        </FrameLayout>
+    </LinearLayout>
+    <RelativeLayout
+            android:id="@+id/rl_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clipToPadding="false"
+            android:paddingBottom="@dimen/spacer"
+            android:paddingLeft="@dimen/spacer"
+            android:paddingRight="@dimen/spacer"
+            android:paddingTop="@dimen/spacer" android:layout_weight="1">
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:id="@+id/ll_sqr" android:layout_centerVertical="true"
+                android:paddingTop="5dp">
+            <ir.microsign.colorpicker.view.SquareView
+                    android:id="@+id/sqr_SatBri"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layerType="software" android:layout_weight="1"/>
+            <ImageView
+                    android:id="@+id/img_viewHue"
+                    android:layout_width="@dimen/hueWidth"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/spacer"
+                    android:layout_toRightOf="@id/sqr_SatBri"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/hue"/>
+            <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/rl_transparent">
+                <ImageView
+                        android:id="@+id/img_alphaCheckered"
+                        android:layout_width="@dimen/hueWidth"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="@dimen/spacer"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/alphacheckered_tiled"/>
+                <View
+                        android:id="@+id/overlay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/img_alphaCheckered"
+                        android:layout_alignBottom="@+id/img_alphaCheckered"
+                        android:layout_alignLeft="@+id/img_alphaCheckered"
+                        android:layout_alignRight="@+id/img_alphaCheckered"/>
+                <ImageView
+                        android:id="@+id/img_alphaCursor"
+                        android:layout_width="9dp"
+                        android:layout_height="9dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icon_cursor"
+                        />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+                android:id="@+id/img_cursor"
+                android:layout_width="9dp"
+                android:layout_height="9dp"
+                android:scaleType="matrix"
+                android:src="@drawable/icon_cursor" android:layout_alignTop="@+id/ll_sqr"
+                android:layout_alignLeft="@+id/ll_sqr"/>
+
+        <ImageView
+                android:id="@+id/img_target"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:scaleType="matrix"
+                android:src="@drawable/icon_target" android:layout_alignTop="@+id/ll_sqr"/>
+
+    </RelativeLayout>
+</LinearLayout>

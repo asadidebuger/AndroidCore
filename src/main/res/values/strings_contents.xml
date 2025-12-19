@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ml_content_tags">
+        <item></item>
+    </array>
+
+    <string name="content_all_cats">همه ی مجموعه ها</string>
+    <string name="content_marked_not_found">مورد علامت گذاری شده یافت نشد. احتمالا محتوای مورد نظر به روز رسانی شده
+        است
+    </string>
+    <string name="search_next">نتایج بعدی</string>
+    <string name="search_prev">نتایج قبلی</string>
+</resources>

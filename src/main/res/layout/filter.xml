@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/group_filter"
+        android:gravity="center_vertical">
+
+    <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/img_cancelFilter"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"/>
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+        <EditText xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/etxt_list_filter"
+                  android:layout_weight="1"
+                  android:gravity="right"
+                  android:inputType="textShortMessage|text"
+                  android:paddingRight="42dp"
+                  android:singleLine="true"/>
+
+        <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/img_filter"
+                android:src="@android:drawable/ic_search_category_default"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

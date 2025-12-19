@@ -1,0 +1,59 @@
+h1 {margin: 0;font-size: 110%;font-weight:bold;}
+span[style*="background-color"],span[style^="background-color"]{padding: 5px 2px;}
+strong {font-weight: bold;}
+table p{padding: 0;margin: 0;}
+table{display: block;
+max-width: 100%;
+overflow-x: hidden;
+overflow-y: visible;
+height: auto!important;}
+table tbody {display: block;
+overflow-x: auto;
+direction: ltr;
+overflow-y: visible;
+height: auto!important;}
+table td {min-width: 120px;}
+table.simple {
+display: unset;
+max-width: 100%;
+overflow-x: hidden;
+overflow-y: visible;
+height: auto!important;}
+table.simple  tbody {
+display:unset!important;;
+overflow-x:auto!important;;
+direction: unset!important;;
+overflow-y: unset!important;;
+height: auto!important;}
+table.simple td {min-width: unset!important;}
+img{max-width:100%;}
+img.jg_photo {max-width:94%;
+background-color:#fff;
+border:1px solid #ddd;
+border-radius:4px;
+padding:4px;}
+.note {border: 1px dashed orangered;
+border-radius: 5px;background-color: #FFFaFa;padding: 5px;}
+.extradetails {color: #28321a;}
+.description{color: #0000ff;}
+.derivative{color: #cc6600;}
+.description{color: #0000ff;}
+.example{color: #006400;}
+.derivative{color: #cc6600;}
+.partofspeech{color: #cc0099;}
+.useful{color: #800000;}
+.anotheruse{color: #c30000;}
+.playsound{border-bottom: dashed 1px red;}
+div.header{display:block;border-bottom: 1px dashed #76b6ff;font-weight: bold;}
+.header-link{text-decoration: none!important;}
+.ltr.header{font-size: 110%;color: #093fff;margin:5px 0; }
+.rtl.header{color: #004135;margin:5px 0;}
+.search-item{border-bottom:1px dashed #17578d;text-decoration:none;color:inherit;display:block;margin:5px 0 3px 0;}
+.header-root{background-color: #ccffbe;padding:5px 5px 0 5px;margin:-8px -13px 0 -13px;}
+.emptylink{pointer-events:none;cursor:default;color:inherit;}
+.navigation-arrow{margin:0 6px;color:navy;text-decoration:none;font-weight:bolder;font-size:110%;line-height:150%;vertical-align:middle;float:right;padding:0 8px;}
+.path{font-size:60%;}
+.path.search{border-bottom:1px solid #666;}
+.marked{color:inherit;text-decoration:none;display: block;width: 100%}
+.delete{color:red;text-decoration:none;font-size:100%;float:right;border-radius:3px;border:1px dashed red;padding:1px 5px 1px 5px; margin:2px;}
+.search-number{font-size:70%;width:20px;height:20px;vertical-align: middle;text-align:center;color: white;font-weight: bold;float: right;border-radius:50px;background-color: #004e70;margin:0 0 3px 0;}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+
+        <shape>
+            <padding android:right="0dp" android:left="0dp" android:bottom="0dp" android:top="0dp"/>
+            <solid android:color="@color/color_transparent"/>
+        </shape>
+    </item>
+
+
+</layer-list>

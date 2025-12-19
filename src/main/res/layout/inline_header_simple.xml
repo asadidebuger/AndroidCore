@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:baselineAligned="false">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" android:background="@drawable/back_simple_header_close"
+                android:layout_marginTop="-5dp" android:paddingTop="5dp">
+            <ImageView android:layout_width="35dp" android:layout_height="35dp" android:id="@+id/img_close"
+                       android:src="@drawable/icon_close_white" android:scaleType="centerInside"
+                       android:layout_alignBottom="@+id/txt_title"
+                    />
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" android:background="@drawable/back_simple_header_right"
+                android:layout_weight="1" android:layout_marginLeft="5dp"
+                android:layout_marginTop="-5dp"
+                android:paddingTop="5dp">
+            <ImageView android:layout_width="35dp" android:layout_height="35dp" android:id="@+id/img_header_icon3"
+                       android:src="@drawable/icon_help_white" android:scaleType="centerInside"
+                       android:adjustViewBounds="true" android:visibility="gone"/>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                      android:id="@+id/txt_title"
+                      android:gravity="center_horizontal" android:textColor="@color/color_simple_header_txt"
+                      android:layout_alignParentTop="true"
+                      android:padding="5dp" android:layout_weight="1" android:layout_gravity="center_vertical"/>
+            <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/img_header_icon1" android:src="@drawable/icon_refresh_white"
+                    android:scaleType="centerInside" android:adjustViewBounds="true"/>
+            <ImageView android:layout_width="35dp" android:layout_height="35dp" android:id="@+id/img_header_icon2"
+                       android:src="@drawable/icon_help_white" android:scaleType="centerInside"
+                       android:adjustViewBounds="true" android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      class="androidx.drawerlayout.widget.DrawerLayout" android:id="@+id/drawer_layout">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+        <include layout="@layout/inline_header" android:layout_width="fill_parent"
+                 android:layout_height="@dimen/header_height" android:layout_marginBottom="1dp"
+                 android:id="@+id/include"/>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:background="@color/white">
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                       android:id="@+id/imageView" android:src="@drawable/metro_white"
+                       android:adjustViewBounds="true" android:layout_alignParentBottom="true"
+                       android:scaleType="centerCrop"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" android:id="@+id/ll_fragments">
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <ir.microsign.apphelper.view.MenuView
+            android:id="@+id/slide_menu" android:layout_width="wrap_content" android:layout_height="fill_parent"
+            android:layout_gravity="start"
+            android:background="@drawable/back_simple_slide_menu"/>
+
+
+</view>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" android:background="@color/white">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/header_height"
+                android:background="@color/color_main_header_background"
+                android:id="@+id/include" android:layout_marginBottom="1dp">
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" android:layout_gravity="center_vertical|right"
+                    android:layout_weight="1"
+                    android:id="@+id/ll_header_container">
+                <ImageView android:layout_width="40dp" android:layout_height="fill_parent"
+                           android:id="@+id/img_header_back"
+                           android:src="@drawable/icon_back_white" android:scaleType="centerInside"
+                           android:adjustViewBounds="false"
+                           android:layout_marginRight="1px" android:background="@drawable/selectable_tabs_v"/>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent" android:layout_weight="1"
+                        android:background="@drawable/selectable_tabs_v" android:padding="0dp"
+                        android:gravity="center_horizontal">
+
+                    <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+                        <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:text="@string/notify_tab_all"
+                                android:background="@drawable/selectable_tabs_v" android:paddingLeft="5dp"
+                                android:paddingRight="5dp" android:id="@+id/txt_tab_all" android:clickable="true"
+                                android:textColor="@color/white" android:layout_weight="1" android:gravity="center"/>
+                        <View android:layout_width="1px" android:layout_height="fill_parent"
+                              android:background="@color/color_main_header_background"/>
+                        <TextView android:layout_width="fill_parent" android:layout_height="fill_parent"
+                                  android:text="@string/notify_tab_this" android:id="@+id/txt_tab_last"
+                                  android:background="@drawable/selectable_tabs_v"
+                                  android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_marginLeft="1px"
+                                  android:clickable="true" android:textColor="@color/white" android:layout_weight="1"
+                                  android:gravity="center"/>
+                    </LinearLayout>
+                    <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:selectAllOnFocus="true" android:id="@+id/etxt_search"
+                            android:visibility="gone" android:inputType="text"
+
+                            android:background="@android:drawable/editbox_background" android:layout_weight="1"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView android:layout_width="40dp" android:layout_height="fill_parent"
+                       android:id="@+id/img_refresh" android:scaleType="centerInside"
+                       android:src="@drawable/icon_refresh_white"
+                       android:adjustViewBounds="false" android:layout_marginLeft="1px"
+                       android:visibility="visible" android:background="@drawable/selectable_tabs_v"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/img_search" android:src="@drawable/icon_search_white"
+                    android:adjustViewBounds="true" android:visibility="gone"
+                    android:background="@drawable/selectable_tabs_v" android:layout_marginLeft="1px"/>
+            <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/img_header_settings"
+                    android:adjustViewBounds="false"
+                    android:src="@drawable/back_selectable_ballet" android:scaleType="fitXY"
+                    android:background="@drawable/selectable_tabs_v" android:visibility="gone"/>
+
+        </LinearLayout>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:background="@color/white">
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                       android:id="@+id/imageView" android:src="@drawable/metro_white"
+                       android:scaleType="centerCrop"
+                       android:adjustViewBounds="true" android:layout_alignParentBottom="true"
+                    />
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" android:id="@+id/ll_fragments">
+                <com.nirhart.parallaxscroll.views.ParallaxListView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/list_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:parallax_factor="1.9"
+                        app:circular_parallax="true"
+                        android:scrollbars="none"
+
+                        tools:activity="ir.microsign.content.activity.ActivityContentMain"
+                        android:dividerHeight="1dp"
+                        android:divider="#00000000"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

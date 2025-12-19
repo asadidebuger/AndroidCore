@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              android:orientation="horizontal"
+              android:paddingBottom="1px" android:id="@+id/ll_root">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="true" android:background="@drawable/back_selectable_menu_item"
+            android:id="@+id/ll_root1">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_weight="1" android:paddingTop="5dp"
+                android:paddingBottom="5dp" android:paddingLeft="5dp" android:paddingRight="3dp">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" android:gravity="center_vertical">
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/img_delete" android:src="@drawable/icon_recycle"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:id="@+id/txt_date"
+                          android:textColor="@color/tomato" android:layout_alignBottom="@+id/rdb_font_name"
+                          android:gravity="right"/>
+                <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_value_title" android:textColor="@color/color_gray1"
+                        android:layout_alignBottom="@+id/rdb_font_name"
+                        android:gravity="right" android:layout_weight="1"/>
+            </LinearLayout>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_value_description" android:textColor="@color/color_gray2"
+                    android:layout_alignBottom="@+id/rdb_font_name"
+                    android:gravity="right"/>
+        </LinearLayout>
+        <ImageView
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/img_intent" android:src="@drawable/icon_intent" android:adjustViewBounds="true"
+                android:scaleType="fitEnd" android:layout_gravity="center_vertical"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="3dp"
+                android:layout_height="fill_parent" android:background="#d41c2b" android:id="@+id/ll_intent">
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

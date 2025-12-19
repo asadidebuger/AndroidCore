@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" android:id="@+id/ll_root_cat"
+              android:background="@color/color_tabs_space0">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/category_item_height"
+            android:id="@+id/txt_title"
+            android:text="title"
+            android:background="@drawable/selectable_tabs0" android:textSize="14sp"
+            android:textColor="@color/color_tabs_text"
+            android:layout_gravity="right"
+            android:layout_marginRight="1px"
+            android:paddingLeft="4dp" android:paddingTop="4dp" android:paddingRight="4dp" android:paddingBottom="2dp"
+            android:gravity="center"/>
+</LinearLayout>

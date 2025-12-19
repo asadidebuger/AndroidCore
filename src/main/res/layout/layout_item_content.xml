@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/content_item_height" android:orientation="horizontal"
+                android:id="@+id/ll_root">
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/content_item_height"
+            android:background="@drawable/back_selectable_content_even"
+            android:id="@+id/ll_root2" android:baselineAligned="false">
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" android:id="@+id/rl_image_root">
+            <ImageView
+                    android:layout_width="@dimen/content_item_height"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/img_image"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/border_light_right_round"
+                    />
+            <ProgressBar
+                    style="?android:attr/progressBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/prg_wait" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent" android:background="@drawable/border_bottom"
+                android:layout_weight="1">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" android:id="@+id/ll_title">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="18/10/1392"
+                        android:id="@+id/txt_date"
+                        android:textColor="@color/color_gray1"
+                        android:singleLine="false"
+
+                        />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="titr"
+                          android:id="@+id/txt_titr"
+
+                          android:textSize="15sp" android:textColor="@color/color_content_title"
+                          style="@style/TextViewShadow_light"
+                          android:paddingLeft="3dp" android:paddingRight="3dp"
+                          android:paddingTop="5dp"
+                          android:paddingBottom="5dp" android:layout_weight="1" android:gravity="right"
+                          android:textStyle="bold"/>
+                <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/img_intent" android:src="@drawable/intent" android:adjustViewBounds="true"
+
+                        android:layout_gravity="center_vertical" android:layout_marginRight="2dp"/>
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="fill_parent"
+                      android:id="@+id/txt_short_content"
+                      android:padding="2dp"
+                      android:textColor="@color/color_gray0" android:background="#80ffffff" android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="15dp" android:background="@drawable/back_fade_bottom_to_top"
+            android:layout_alignParentBottom="true" android:id="@+id/ll_overlay">
+    </LinearLayout>
+</RelativeLayout>

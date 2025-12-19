@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" android:orientation="horizontal"
+              android:background="@drawable/back_selectable_menu_item"
+              android:paddingLeft="2dp">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:id="@+id/ll_title" android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:gravity="left|right"
+            android:layout_weight="1">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:id="@+id/ll_titr"
+                android:layout_gravity="right">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="titr"
+                      android:id="@+id/txt_titr"
+
+                      android:textSize="15sp" android:textColor="#ff760900" style="@style/TextViewShadow_light"
+                      android:paddingLeft="3dp" android:paddingRight="3dp"
+                      android:layout_weight="1" android:gravity="right"
+                      android:textStyle="bold"/>
+        </LinearLayout>
+        <View
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="1px" android:background="#80cccccc">
+        </View>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView style="@style/TextViewShadow_light" android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:text="path" android:id="@+id/txt_content_path" android:layout_below="@+id/ll_titr"
+                      android:textSize="11sp" android:textColor="#ffd11e00"
+                      android:layout_alignLeft="@+id/txt_short_content"
+                      android:singleLine="false"
+                      android:layout_weight="1" android:gravity="right" android:paddingRight="5dp"
+                      android:paddingLeft="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+            android:orientation="horizontal"
+            android:layout_width="2dp"
+            android:layout_height="fill_parent" android:background="@color/tomato">
+    </View>
+</LinearLayout>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal" android:background="@color/color_sign_in_header_bkg" android:gravity="center_vertical">
+		<ImageView
+			android:id="@+id/img_close"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent" android:src="@drawable/icon_close_white" />
+	<TextView
+		android:id="@+id/txt_title"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="400dp"
+		android:textColor="@color/color_sign_in_header_text"
+		android:layout_weight="1"
+		android:padding="5dp"
+		android:gravity="center"/>
+
+	</LinearLayout>
+    <ScrollView android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" >
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+
+			<LinearLayout
+				android:id="@+id/ll_verify"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:padding="5dp">
+
+				<LinearLayout
+					android:id="@+id/ll_validate"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical">
+
+					<TextView
+						android:id="@+id/txt_verify_code"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="@string/txt_verify_code"
+						android:textColor="@color/textGray" />
+
+					<EditText
+						android:id="@+id/et_verify_code"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:ems="10"
+						android:hint="@string/caption_verify_code"
+						android:inputType="textPersonName"
+						android:textColor="@color/textGray" />
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal">
+
+						<TextView
+							android:id="@+id/txt_timer"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:gravity="center"
+							android:padding="5dp"
+							android:text="@string/txt_verify_code"
+							android:textColor="@color/tomato" />
+
+						<TextView
+							android:id="@+id/txt_timer_title"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:gravity="center"
+							android:padding="5dp"
+							android:text="@string/txt_timer_title"
+							android:textColor="@color/textGray" />
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/ll_data"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="5dp">
+
+				<LinearLayout
+					android:id="@+id/ll_face"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"></LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/ll_sign_in"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical">
+
+					<LinearLayout
+						android:id="@+id/ll_name"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+
+						<TextView
+							android:id="@+id/txt_name"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:text="@string/txt_name"
+							android:textColor="@color/textGray"
+							android:textStyle="bold" />
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:orientation="horizontal">
+
+							<EditText
+								android:id="@+id/et_first"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:layout_weight="1"
+								android:ems="10"
+								android:hint="@string/caption_name"
+								android:inputType="textPersonName"
+								android:textColor="@color/textGray" />
+
+							<Spinner
+								android:id="@+id/spinner_sex"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:entries="@array/array_sex"
+
+								android:minWidth="50dp"
+								android:textColor="@color/textGray" />
+
+						</LinearLayout>
+
+						<EditText
+							android:id="@+id/et_last"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:ems="10"
+							android:hint="@string/caption_lastname"
+							android:inputType="textPersonName"
+							android:textColor="@color/textGray" />
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/ll_username"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+
+						<LinearLayout
+							android:id="@+id/ll_use_code"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:orientation="vertical">
+
+							<TextView
+								android:id="@+id/txt_code"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:text="@string/txt_code"
+								android:textColor="@color/textGray" />
+
+							<EditText
+								android:id="@+id/et_code"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:ems="10"
+								android:hint="@string/caption_code"
+								android:inputType="textEmailAddress"
+								android:selectAllOnFocus="true"
+								android:textColor="@color/textGray" />
+						</LinearLayout>
+
+						<LinearLayout
+							android:id="@+id/ll_use_phone"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:orientation="vertical">
+
+							<TextView
+								android:id="@+id/txt_mobile_num"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:text="@string/txt_mobile_num"
+								android:textColor="@color/textGray" />
+
+							<LinearLayout
+								android:id="@+id/ll_phone"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:orientation="horizontal">
+
+								<Spinner
+									android:id="@+id/spinner_code"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:entries="@array/array_country_code"
+									android:minWidth="50dp"
+
+									android:textColor="@color/textGray" />
+
+								<EditText
+
+									android:id="@+id/et_phone"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_weight="1"
+									android:ems="10"
+									android:hint="@string/caption_phone"
+									android:inputType="phone"
+									android:maxLength="11"
+									android:selectAllOnFocus="true"
+									android:singleLine="true"
+									android:textColor="@color/textGray" />
+							</LinearLayout>
+						</LinearLayout>
+
+						<LinearLayout
+							android:id="@+id/ll_use_email"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:orientation="vertical">
+
+							<TextView
+								android:id="@+id/txt_email"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:text="@string/txt_email"
+								android:textColor="@color/textGray" />
+
+							<EditText
+								android:id="@+id/et_email"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:ems="10"
+								android:hint="@string/caption_email"
+								android:inputType="textEmailAddress"
+								android:selectAllOnFocus="true"
+								android:textColor="@color/textGray" />
+						</LinearLayout>
+
+					</LinearLayout>
+
+
+
+				</LinearLayout>
+
+
+			</LinearLayout>
+			<Button
+			android:id="@+id/btn_ok"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="2dp"
+			android:layout_marginBottom="7dp"
+			android:text="@string/btn_reg_data" />
+		</LinearLayout>
+    </ScrollView>
+</LinearLayout>

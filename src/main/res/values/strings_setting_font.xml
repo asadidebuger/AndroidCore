@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setting_font_title_font_name">نام قلم</string>
+    <string name="setting_font_title_font_sample">متن نمونه</string>
+    <string name="setting_font_title_font_size">اندازه قلم</string>
+    <string name="setting_font_title_font_line_height">فاصله ی خطوط</string>
+    <string name="setting_font_title_font_color">رنگ قلم</string>
+    <string name="setting_font_title_font_back_color">رنگ پس زمینه</string>
+    <string name="setting_font_sample_text" formatted="false">این یک متن نمونه با قلم %s می باشد</string>
+    <string name="setting_font_title_h1">تیتر1</string>
+    <string name="setting_font_desc_h1">تیترهاو متن های اصلی و بزرگ با این قلم نمایش داده می شود.</string>
+    <string name="setting_font_title_h2">تیتر2</string>
+    <string name="setting_font_desc_h2">تیترهای فرعی با این قلم نمایش داده می شود.</string>
+    <string name="setting_font_title_h3">تیتر3</string>
+    <string name="setting_font_desc_h3">تیترهای فرعی کوچکتر با این قلم نمایش داده می شود.</string>
+    <string name="setting_font_title_p">متن معمولی</string>
+    <string name="setting_font_desc_p">متون معمولی با این قلم نمایش داده می شود.</string>
+    <string name="setting_font_title_web">متن معمولی برای مطالعه</string>
+    <string name="setting_font_desc_web">متونی که معمولا برای مطالعه نمایش داده می شود از این قلم بهره می برد.</string>
+    <string name="setting_font_title_webrtl">متن راست به چپ</string>
+    <string name="setting_font_desc_webrtl">متونی که معمولا برای مطالعه نمایش داده می شود در صورتی که راست به چپ باشند
+        از این قلم بهره می برد.
+    </string>
+    <string name="setting_font_title_small">متن ریز</string>
+    <string name="setting_font_desc_small">متون خیلی کوچک با این قلم نمایش داده می شود.</string>
+    <string name="setting_font_title_def">سایر متون</string>
+    <string name="setting_font_desc_def">سایر متونی که خارج از ساختار باشد با این قلم نمایش داده می شود.</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_content_title">به روز رسانی محتوا</string>
+    <string name="update_content_p1_title">مراحل به روز رسانی</string>
+    <string name="update_content_p2_prepare">دریافت مجوز</string>
+    <string name="update_content_p2_cats">دریافت مجموعه ها</string>
+    <string name="update_content_p2_versions">دریافت لیست تغییرات</string>
+    <string name="update_content_p2_changes_proceed">بررسی مغایرت</string>
+    <string name="update_content_p2_contents">دریافت محتوا</string>
+    <string name="update_content_p2_ordering">مرتب سازی</string>
+    <string name="update_content_p2_book_list">دریافت فهرست دسته بندی</string>
+    <string name="update_content_title_no_new_update">همه ی مطالب به روز می باشد</string>
+    <string name="update_content_desc_no_new_update">هیچ موردی برای به روز رسانی وجود ندارد. همه ی محتوای موجود در نرم
+        افزار شما به روز و منطبق با محتوای سرور می باشد.
+    </string>
+    <string name="update_content_title_update_succeed">به روز رسانی موفقیت آمیز</string>
+    <string name="update_content_desc_update_succeed">به روز رسانی مطالب با موفقیت انجام شد</string>
+    <string name="update_content_title_update_failed">شکست عملیات</string>
+    <string name="update_content_desc_update_failed">عملیات به روز رسانی مطالب با شکست مواجه شد. علت آن میتواند یکی از
+        موارد زیر باشد:\n
+        - قطع دسترسی به اینترنت\n
+        - قطع ارتباط با سرور یا در دسترس نبودن سرور\n
+        - جلوگیری مدیر سرور از صدور مجوز برای دستگاه شما\n
+        - طولانی شدن روند دریافت و باطل شدن مجوز دریافت، در این صورت باید مجددا تلاش نمایید.
+    </string>
+    <string name="message_title_update_contents">به روز رسانی محتوا</string>
+    <string name="message_desc_update_contents" formatted="false">آیا مایل هستید مجموعه %s از طریق اینترنت به روز رسانی
+        شود؟
+    </string>
+</resources>

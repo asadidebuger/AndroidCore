@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:left="5dp" android:right="5dp" android:bottom="8dp" android:top="8dp">
+        <inset android:drawable="@drawable/icon_ballet"/>
+
+    </item>
+    <item>
+        <shape>
+            <size android:width="12dp"/>
+            <solid android:color="@color/color_menu_setting_ballet_selected"/>
+        </shape>
+    </item>
+
+</layer-list>

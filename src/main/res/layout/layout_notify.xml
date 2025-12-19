@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:baselineAligned="false" android:id="@+id/root" android:background="#fefefe"
+              android:padding="2dp">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/img_icon" android:layout_gravity="center_horizontal|top"
+            android:adjustViewBounds="true" android:scaleType="fitCenter"/>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight="1"
+            android:minHeight="40dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+                      android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:id="@+id/txt_date" android:layout_above="@+id/txt_description" android:textSize="10dp"
+                      android:layout_centerHorizontal="true" android:paddingRight="10dp" android:paddingLeft="10dp"
+                      android:gravity="right" android:textStyle="bold" android:textColor="@color/color_gray2"
+                      android:paddingTop="1dp"/>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                      android:id="@+id/txt_title" android:layout_above="@+id/txt_description" android:textSize="14dp"
+                      android:layout_centerHorizontal="true" android:paddingRight="10dp" android:paddingLeft="10dp"
+                      android:gravity="right" android:textStyle="bold" android:textColor="@color/color_gray0"
+                      android:text="Title"
+                      android:paddingTop="1dp" android:layout_weight="1" android:singleLine="true"/>
+            <ImageView android:layout_width="15dp" android:layout_height="wrap_content" android:id="@+id/imageView2"
+                       android:src="@drawable/notify_titleintent" android:adjustViewBounds="true"
+                       android:scaleType="fitStart"
+                       android:layout_gravity="center_vertical" android:layout_marginRight="4dp"/>
+        </LinearLayout>
+        <TextView android:layout_width="fill_parent" android:layout_height="50dp" android:text="Desc"
+                  android:id="@+id/txt_description" android:layout_alignBottom="@+id/image_main_bkg"
+                  android:textSize="10dp" android:layout_centerHorizontal="true"
+                  android:gravity="center_vertical|right"
+                  android:textColor="@color/color_gray2" android:paddingBottom="5dp"
+                  android:singleLine="false" android:layout_weight="1"
+                  android:layout_marginTop="5dp"/>
+    </LinearLayout>
+</LinearLayout>

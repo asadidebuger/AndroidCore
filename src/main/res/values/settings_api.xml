@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="api_profile_show_address">true</bool>
+    <bool name="api_profile_show_phone">true</bool>
+    <bool name="api_profile_force_phone">false</bool>
+    <bool name="api_profile_force_mobile">false</bool>
+    <bool name="api_profile_force_country">false</bool>
+    <bool name="api_profile_force_city">false</bool>
+    <bool name="api_profile_force_region">false</bool>
+    <bool name="api_profile_force_address">false</bool>
+    <string name="api_url_customer">http://apit.tarnian.net</string>
+    <string name="api_url_base">http://apit.tarnian.net</string>
+    <string name="helper_class_path_api">net.tarnian.api.object.Helper</string>
+</resources>

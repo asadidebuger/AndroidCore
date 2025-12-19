@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" android:id="@+id/ll_root">
+
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:background="@color/color_light_t" android:padding="5dp" android:id="@+id/ll_container"
+                  android:layout_marginTop="1dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" android:gravity="center_vertical|right">
+            <ImageButton android:layout_width="wrap_content" android:layout_height="40dp"
+                         android:text="@string/settings_default" android:id="@+id/btn_setting_item_default"
+                         android:src="@drawable/icon_refresh" android:scaleType="centerInside"
+                         android:adjustViewBounds="true" android:background="@drawable/back_selectable_light_btn"/>
+            <ImageButton android:layout_width="wrap_content" android:layout_height="40dp"
+                         android:text="@string/settings_default" android:id="@+id/btn_setting_item_change"
+                         android:src="@drawable/icon_edit" android:scaleType="centerInside"
+                         android:adjustViewBounds="true" android:background="@drawable/back_selectable_light_btn"
+                         android:visibility="gone"/>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                      android:id="@+id/txt_setting_item_value" android:layout_weight="1" android:gravity="center"
+                      android:textColor="@color/color_gray1"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="@string/setting_font_title_font_line_height"
+                      android:id="@+id/txt_setting_item_title"
+                      android:textColor="@color/color_gray1"/>
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chbx_setting_item_value"/>
+        </LinearLayout>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:text="@string/setting_font_title_font_line_height"
+                  android:id="@+id/txt_setting_item_description"
+                  android:textColor="@color/color_gray2"/>
+        <SeekBar android:layout_width="fill_parent" android:layout_height="wrap_content"
+                 android:id="@+id/seek_setting_item_value"
+                 android:indeterminate="false" android:max="100"/>
+    </LinearLayout>
+</LinearLayout>

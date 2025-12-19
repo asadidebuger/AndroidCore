@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@drawable/back_tabs_simple1"
+        android:id="@+id/ll_header_root">
+
+    <ImageView android:layout_width="40dp" android:layout_height="fill_parent"
+               android:id="@+id/img_header_setting2"
+               android:adjustViewBounds="false" android:scaleType="fitXY"
+               android:src="@drawable/back_selectable_ballet" android:layout_marginLeft="-5dp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_gravity="center_vertical|right"
+            android:layout_weight="1"
+            android:padding="2dp"
+            android:id="@+id/ll_header_container">
+        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent"
+                   android:id="@+id/img_header_back"
+                   android:src="@drawable/icon_back_white" android:scaleType="centerInside"
+                   android:adjustViewBounds="true"
+                />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:id="@+id/img_header_icon1" android:scaleType="centerInside" android:layout_gravity="right"
+                   android:src="@drawable/icon_refresh_white"
+                   android:adjustViewBounds="true" android:layout_marginLeft="5dp" android:layout_marginRight="1dp"
+                   android:visibility="visible"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:gravity="center_vertical" android:layout_gravity="center_vertical">
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:selectAllOnFocus="true" android:id="@+id/etxt_search"
+                    android:visibility="gone"
+                    android:imeOptions="actionSearch"
+                   android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white_t" android:layout_gravity="center_vertical"
+                    android:inputType="text"/>
+            <TextView
+                    android:id="@+id/txt_header_title"
+                    android:layout_width="fill_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_main_header_txt" android:singleLine="true" android:layout_weight="1"
+                    android:visibility="visible"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/img_search" android:src="@drawable/icon_search_white"
+                    android:adjustViewBounds="true" android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" android:id="@+id/ll_header_menu0"
+            android:background="@drawable/selectable_tabs1"
+            android:gravity="center" android:paddingRight="0dp" android:paddingBottom="0dp" android:paddingTop="0dp">
+        <TextView android:id="@+id/txt_title" android:layout_width="wrap_content"
+                  android:gravity="center" android:textSize="18sp"
+                  android:layout_height="fill_parent" android:textColor="@color/color_main_header_txt"
+                  android:singleLine="true" android:visibility="visible"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/img_header_icon"
+
+                android:scaleType="centerInside"
+                android:src="@drawable/icon_logo_simple"
+
+                android:adjustViewBounds="true" android:layout_marginTop="1dp" android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"/>
+        <ImageView
+                android:layout_width="20dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/img_header_settings"
+                android:adjustViewBounds="false"
+                android:src="@drawable/back_selectable_ballet" android:scaleType="fitXY"/>
+    </LinearLayout>
+
+</LinearLayout>

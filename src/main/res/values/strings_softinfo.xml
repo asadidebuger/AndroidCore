@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="us_soft_name">نام نرم افزار</string>
+    <string name="us_soft_title">معرفی نرم افزار</string>
+    <string name="us_soft_version">ویرایش</string>
+    <string name="us_soft_developer">پدید آورنده</string>
+    <string name="us_soft_last_version">آخرین نسخه منتشر شده</string>
+    <string name="us_soft_version_date">تاریخ انتشار آخرین نسخه</string>
+    <string name="us_soft_desc">توضیحات تکمیلی</string>
+    <string name="us_soft_rate_bazzar">دادن امتیاز به این نرم افزار</string>
+
+    <string name="us_soft_name_key">us_soft_name_key</string>
+    <string name="us_soft_version_key">us_soft_version_key</string>
+    <string name="us_soft_developer_key">us_soft_developer_key</string>
+    <string name="us_soft_category_key">us_soft_category_key</string>
+    <string name="us_soft_first_version_release_key">us_soft_first_version_release_key</string>
+    <string name="us_soft_desc_key">us_soft_desc_key</string>
+
+
+    <string name="us_soft_name_value">نام نرم افزار</string>
+    <string name="us_soft_version_value">ویرایش</string>
+    <string name="us_soft_developer_value">شرکت بهینه پرداز ترنیان</string>
+
+    <string name="us_soft_version_date_value">2011-01-01</string>
+    <!--<string name="us_soft_desc_value"></string>-->
+
+
+</resources>

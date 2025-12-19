@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array_country_code">
+        <item>+98</item>
+    </string-array>
+    <string-array name="array_sex">
+
+        <item>آقای</item>
+        <item>خانم</item>
+		<item>--</item>
+    </string-array>
+    <string-array name="array_ticket_cats">
+        <item>انتقاد یا پیشنهاد</item>
+        <item>خطا یا مشکل</item>
+        <item>پرداخت</item>
+        <item>سایر</item>
+    </string-array>
+</resources>

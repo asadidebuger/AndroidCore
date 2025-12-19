@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              android:orientation="vertical"
+              android:padding="3dp" android:clickable="false" android:background="@drawable/back_selectable_menu_item">
+    <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="New RadioButton"
+            android:id="@+id/rdb_font_name"
+            android:enabled="true"
+            android:gravity="center" android:textColor="@color/color_gray1"
+            android:clickable="true"/>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="notify_received_title">اطلاعیه های دریافت شده</string>
+    <string name="notify_date_exp">اعتبار تا:</string>
+    <string name="notify_target_packages">برنامه های هدف:</string>
+    <string name="notify_tab_all">همه ی اطلاعیه ها</string>
+    <string name="notify_tab_this">اطلاعیه های اخیر</string>
+    <string name="notify_tab_exit">خروج</string>
+    <string name="notify_how_all">نمایش همه</string>
+    <string name="service_action">ir.microsign.service.microservice</string>
+    <string name="service_db_path">/microsign/service</string>
+
+
+</resources>

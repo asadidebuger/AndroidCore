@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" android:background="@color/color_full_content_title_header"
+              android:id="@+id/ll_content_items_root">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center"
+            android:id="@+id/ll_scroll_conainter">
+        <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/scroll_content_items" android:layout_gravity="center" style="@style/scrollbar_style">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" android:gravity="center" android:id="@+id/ll_content_items">
+                <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent"
+                           android:id="@+id/img_back" android:src="@drawable/icon_previous_item_white"
+                           android:layout_marginRight="5dp" android:layout_marginLeft="5dp"/>
+                <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent"
+                           android:id="@+id/img_next" android:src="@drawable/icon_next_item_white"
+                           android:layout_marginRight="5dp" android:layout_marginLeft="5dp"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/img_share" android:src="@drawable/icon_share_white"
+                        android:layout_marginRight="5dp" android:layout_marginLeft="5dp"/>
+                <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent"
+                           android:id="@+id/img_bookmark" android:src="@drawable/icon_important_white"
+                           android:layout_marginRight="5dp" android:layout_marginLeft="5dp"/>
+                <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent"
+                           android:id="@+id/img_rotation" android:src="@drawable/icon_screen_rotation_white"
+                           android:layout_marginRight="5dp" android:layout_marginLeft="5dp"/>
+                <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent"
+                           android:id="@+id/img_light" android:src="@drawable/icon_day"
+                           android:layout_marginRight="5dp" android:layout_marginLeft="5dp"/>
+                <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent"
+                           android:id="@+id/img_full_screen" android:src="@drawable/icon_full_screen_white"
+                           android:layout_marginRight="5dp" android:layout_marginLeft="5dp"/>
+
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                           android:id="@+id/img_zoom_in" android:background="@drawable/map_zoom_in"/>
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                           android:id="@+id/img_zoom_out" android:background="@drawable/map_zoom_out"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+    <ImageView android:layout_width="20dp" android:layout_height="fill_parent"
+               android:id="@+id/img_content_items_ballet"
+               android:adjustViewBounds="false" android:scaleType="fitXY"
+               android:src="@drawable/back_selectable_ballet"
+               android:layout_marginRight="-5dp" android:visibility="gone"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_change">تغییر</string>
+    <string name="settings_default">پیشفرض</string>
+
+    <string name="setting_title_appearance">قلم و ظاهر</string>
+    <string name="setting_title_connection">ارتباطات و تنظیمات دریافت</string>
+    <string name="setting_title_advance">تنظیمات پیشرفته</string>
+    <string name="setting_description_search">پالایش آیتم ها</string>
+
+</resources>
